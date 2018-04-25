@@ -1,4 +1,4 @@
-# Botstrap4-addon
+# Bootstrap4-addon
 > Extra css classes and helpers for bootstrap 4 grid system.
 # Product Name
 > Short blurb about what your product does.
