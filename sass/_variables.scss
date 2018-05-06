@@ -1,0 +1,203 @@
+// Grid
+$grid-columns:                16 !default;
+$grid-gutter-width:           10px !default;
+
+$container-max-widths: (
+  sm: 540px,
+  md: 720px,
+  lg: 960px,
+  xl: 1180px
+) !default;
+
+// Colors
+// stylelint-disable
+$white:    #fff !default;
+$gray-100: #f1f1f1 !default;
+$gray-200: #e8e7e7 !default;
+$gray-300: #dee2e6 !default;
+$gray-400: #ced4da !default;
+$gray-500: #b6b6b6 !default;
+$gray-600: #716e6c !default;
+$gray-700: #4a4a4a !default;
+$gray-800: #333333 !default;
+$gray-900: #212529 !default;
+$black:    #000 !default;
+
+$grays: () !default;
+$grays: map-merge((
+  "100": $gray-100,
+  "200": $gray-200,
+  "300": $gray-300,
+  "400": $gray-400,
+  "500": $gray-500,
+  "600": $gray-600,
+  "700": $gray-700,
+  "800": $gray-800,
+  "900": $gray-900
+), $grays);
+
+$blue:       #2f4486 !default;
+$indigo:     #6610f2 !default;
+$purple:     #6f42c1 !default;
+$pink:       #e83e8c !default;
+$red:        #da2128 !default;
+$orange:     #fd7e14 !default;
+$yellow:     #ffc107 !default;
+$green:      #28a745 !default;
+$teal:       #20c997 !default;
+$cyan:       #b0bed8 !default;
+
+$colors: () !default;
+$colors: map-merge((
+  "blue":           $blue,
+  "indigo":         $indigo,
+  "purple":         $purple,
+  "pink":           $pink,
+  "red":            $red,
+  "orange":         $orange,
+  "yellow":         $yellow,
+  "green":          $green,
+  "teal":           $teal,
+  "cyan":           $cyan,
+  "white":          $white,
+  "gray-light":     $gray-100,
+  "gray-medium":    $gray-500,
+  "gray":           $gray-600,
+  "gray-dark":      $gray-700,
+  "gray-darker":    $gray-800
+), $colors);
+
+$primary:       $red !default;
+$secondary:     $white !default;
+$success:       $green !default;
+$info:          $cyan !default;
+$warning:       $yellow !default;
+$danger:        $red !default;
+$light:         $gray-100 !default;
+$medium:        $gray-500 !default;
+$gray:          $gray-600 !default;
+$dark:          $gray-700 !default;
+$darker:        $gray-800 !default;
+
+$theme-colors: () !default;
+$theme-colors: map-merge((
+  "primary":    $primary,
+  "secondary":  $secondary,
+  "success":    $success,
+  "info":       $info,
+  "warning":    $warning,
+  "danger":     $danger,
+  "light":      $light,
+  "medium":     $medium,
+  "gray":       $gray,
+  "dark":       $dark,
+  "darker":     $darker,
+  "black":      $black
+), $theme-colors);
+
+$body-bg: $gray-100 !default;
+
+// Fonts
+$font-family-sans-serif:      "Arial",sans-serif !default;
+
+$font-weight-light:           300 !default;
+$font-weight-normal:          400 !default;
+$font-weight-medium:          500 !default;
+$font-weight-bold:            700 !default;
+$font-weight-heavy:           900 !default;
+
+$font-size-base:              .875rem !default; // Assumes the browser default, typically `16px`
+
+$display1-size:               12.8571rem !default;
+$display2-size:               6.2142rem !default;
+$display3-size:               5rem !default;
+$display4-size:               3.3571rem !default;
+$display5-size:               2.5rem !default;
+
+$display1-weight:             700 !default;
+$display2-weight:             700 !default;
+$display3-weight:             700 !default;
+$display4-weight:             700 !default;
+$display5-weight:             700 !default;
+
+$display-line-height:         .9 !default;
+
+$font-size-xxlg:               ($font-size-base * 1.4285) !default;
+$font-size-xlg:                ($font-size-base * 1.2857) !default;
+$font-size-lg:                 ($font-size-base * 1.1428) !default;
+$font-size-sm:                 ($font-size-base * .9285) !default;
+$font-size-xsm:                ($font-size-base * .8571) !default;
+$font-size-xxsm:               ($font-size-base * .7857) !default;
+$font-size-xxxsm:              ($font-size-base * .7142) !default;
+
+$small-font-size:             93% !default;
+
+$font-weight-base:            $font-weight-medium !default;
+$font-spacing-base:           0.00rem !default;
+$line-height-base:            1.2 !default;
+$paragraph-margin-bottom:     0rem !default;
+
+$h1-font-size:                $font-size-base * 2.2857 !default;
+$h2-font-size:                $font-size-base * 2.1428 !default;
+$h3-font-size:                $font-size-base * 1.7142 !default;
+$h4-font-size:                $font-size-base * 1.6428 !default;
+$h5-font-size:                $font-size-base * 1.5714 !default;
+$h6-font-size:                $font-size-base * 1.4285 !default;
+
+$headings-margin-bottom:      0rem !default;
+$headings-font-weight:        $font-weight-heavy;
+
+$body-color:                  $black;
+
+// Links
+$link-color:                  $black !default;
+$link-hover-color:            $gray-600 !default;
+$link-hover-decoration:       none !default;
+
+// Spacers
+$spacer: 1rem !default;
+$spacers: () !default;
+$spacers: map-merge((
+  0: 0,
+  1: ($spacer * .25),
+  2: ($spacer * .5),
+  3: $spacer,
+  4: ($spacer * 1.5),
+  5: ($spacer * 2),
+  6: ($spacer * 2.5),
+  7: ($spacer * 3),
+  8: ($spacer * 3.5),
+  9: ($spacer * 4),
+  10: ($spacer * 4.5),
+  11: ($spacer * 5),
+  12: ($spacer * 5.5),
+  13: ($spacer * 6),
+  14: ($spacer * 6.5),
+  15: ($spacer * 7),
+  16: ($spacer * 7.5),
+  17: ($spacer * 8),
+  18: ($spacer * 8.5),
+  19: ($spacer * 9),
+  20: ($spacer * 9.5),
+  21: ($spacer * 10),
+  22: ($spacer * 10.5),
+  23: ($spacer * 11),
+  24: ($spacer * 11.5),
+  25: ($spacer * 12),
+  26: ($spacer * 12.5),
+  27: ($spacer * 13),
+  28: ($spacer * 13.5),
+  29: ($spacer * 14),
+  30: ($spacer * 14.5),
+  31: ($spacer * 15),
+  32: ($spacer * 15.5),
+  33: ($spacer * 16),
+  34: ($spacer * 16.5),
+  35: ($spacer * 17),
+  36: ($spacer * 17.5),
+  37: ($spacer * 18),
+  38: ($spacer * 18.5),
+  39: ($spacer * 19),
+  40: ($spacer * 19.5),
+  50: ($spacer * 29)
+), $spacers);

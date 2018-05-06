@@ -13,12 +13,17 @@
   "keywords": [
     "bootstrap",
     "4",
-    "addon"
+    "addon",
+    "extra",
+    "classes"
   ],
   "author": "thanosasimo@gmail.com",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/thanosasimo/bootstrap4-addon/issues"
   },
-  "homepage": "https://github.com/thanosasimo/bootstrap4-addon#readme"
+  "homepage": "https://github.com/thanosasimo/bootstrap4-addon#readme",
+  "devDependencies": {
+    "bootstrap": "^4.1.1"
+  }
 }

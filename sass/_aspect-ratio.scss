@@ -1,0 +1,12 @@
+@each $breakpoint in map-keys($grid-breakpoints) {
+    @include media-breakpoint-up($breakpoint) {
+        $infix: breakpoint-infix($breakpoint, $grid-breakpoints);
+        $i: 5;
+        @while $i < 235 {
+            .ar#{$infix}-#{$i} {
+                padding-top: $i + % + !important;
+            }
+            $i: $i+5;
+        }
+    }
+}

@@ -1,0 +1,115 @@
+p {
+    letter-spacing: $font-spacing-base;
+}
+
+a,
+button {
+    padding: 0px;
+    transition: all 250ms ease-out;
+}
+
+.text-underline {
+    display: inline-block;
+    position: relative;
+    &:after {
+        content: '';
+        display: block;
+        position: absolute;
+        left: 0px;
+        bottom: 0px;
+        width: 100px;
+        height: 2px;
+        background: $white;
+    }
+    &.text-underline-blue {
+        &:after {
+            background: $blue;
+        }
+    }
+}
+
+.text-underline-simple {
+    text-decoration: underline;
+}
+
+.link-white {
+    color: $white;
+    &:hover {
+        color: $gray-300;
+        i:before {
+            color: $gray-300;
+        }
+    }
+}
+
+.link-medium {
+    color: $gray-500;
+    &:hover {
+        color: $gray-600;
+        i:before {
+            color: $gray-600;
+        }
+    }
+}
+
+.link-red {
+    color: $red;
+    &:hover {
+        color: $red;
+    }
+}
+
+.link-blue {
+    color: $blue;
+    &:hover {
+        color: $blue;
+    }
+}
+
+.line-height-07 {
+    line-height: .7;
+}
+
+.line-height-09 {
+    line-height: .9;
+}
+
+.line-height-11 {
+    line-height: 1.1;
+}
+
+.line-height-14 {
+    line-height: 1.4;
+}
+
+.font-weight-medium {
+    font-weight: $font-weight-medium !important;
+}
+
+.font-weight-heavy {
+    font-weight: $font-weight-heavy !important;
+}
+
+.xxlarge {
+    font-size: $font-size-xxlg;
+}
+
+.xlarge {
+    font-size: $font-size-xlg;
+}
+
+.large {
+    font-size: $font-size-lg;
+}
+
+.xsmall {
+    font-size: $font-size-xsm;
+}
+
+.xxsmall {
+    font-size: $font-size-xxsm;
+}
+
+.xxxsmall {
+    font-size: $font-size-xxxsm;
+}
