@@ -1,0 +1,24 @@
+{
+  "name": "bootstrap4-addon",
+  "version": "1.0.0",
+  "description": "> Extra css classes and helpers for bootstrap 4 grid system.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thanosasimo/bootstrap4-addon.git"
+  },
+  "keywords": [
+    "bootstrap",
+    "4",
+    "addon"
+  ],
+  "author": "thanosasimo@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thanosasimo/bootstrap4-addon/issues"
+  },
+  "homepage": "https://github.com/thanosasimo/bootstrap4-addon#readme"
+}
