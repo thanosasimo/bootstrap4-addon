@@ -1,7 +1,7 @@
 # Bootstrap4-addon
 > Extra css classes and helpers for bootstrap 4 grid system.
 
-## Dependents
+## Assets List
 * Aspect ratio
 * Backgrounds
 * Extras
@@ -20,7 +20,7 @@ e.g.
 Class `.ar-md-20` will add a 20% padding-top css rule to the given element.  
 This will effect the height of the element depending the width, so it will maintain its aspect ratio.
 
-### Backgrounds
+## Backgrounds
 This is for background images and their positions.
 [data-bg-src] styles for cover images.
 
@@ -29,21 +29,21 @@ $position: top
            bottom
            bottom-left
 
-### Extras
+## Extras
 Reset focus outline & .overflow-hidden & .h-100 classes.
 
-### Icons
+## Icons
 Fonticons sizes.
 .icon-xs (13px)
 You can edit this sizes by include a variable file before you call the specific scss file.
 
-### Images
+## Images
 Usefull classes for svg images.
 In addition with .img-fluid class of bootstrap the images go to the next level!
 ##### Use
 .img-#{$number}
 
-### Links
+## Links
 Set colors for the links that you will need for your project, in a variables file.
 ##### Use
 .link-#{$name}
