@@ -10,18 +10,16 @@
 * [Links](#links)
 * [Negative margins](#negative-margins)
 * [Typography](#typography)
-* [Vertical height](#vertical-heights)
+* [Vertical heights](#vertical-heights)
 
-## HOW TO USE IT
+### HOW TO USE IT
 
 ## Aspect ratio
-
-For each bootstrap breakpoint adds `.ar-$breakpoint-#number ` class.  
-The #number is between 5-230 with step 5.  
-
-
-Class `.ar-md-20` will add a 20% padding-top css rule to the given element.
-This will effect the height of the element depending the width, so it will maintain its aspect ratio.
+For each bootstrap breakpoint adds `.ar-$breakpoint-$number ` class.  
+###### DEFAULT VARIABLES
+The $number is between 5-230 with step 5.  
+Class `.ar-md-20` will add a 20% padding-top css rule to the given element.  
+This will effect the height of the element depending the width, so it will maintain its aspect ratio.  
 
 
 ## Backgrounds
