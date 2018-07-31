@@ -11,5 +11,3 @@
 * Negative margins
 * Typography
 * Vertical height
-
-  
