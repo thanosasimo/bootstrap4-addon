@@ -3,14 +3,14 @@
 
 ## ASSETS LIST
 * [Aspect ratio](#aspect-ratio)
-* Backgrounds
-* Extras
-* Icons
-* Images
-* Links
-* Negative margins
-* Typography
-* Vertical height
+* [Backgrounds](#backgrounds)
+* [Extras](#extras)
+* [Icons](#icons)
+* [Images](#images)
+* [Links](#links)
+* [Negative margins](#negative-margins)
+* [Typography](#typography)
+* [Vertical height](#vertical-height)
 
 ## HOW TO USE IT
 
