@@ -1,7 +1,7 @@
 # Bootstrap4-addon
 > Extra css classes and helpers for bootstrap 4 grid system.
 
-### **ASSETS LIST**
+### ASSETS LIST
 * [Aspect ratio](#aspect-ratio)
 * [Backgrounds](#backgrounds)
 * [Extras](#extras)
@@ -15,7 +15,9 @@
 ### HOW TO USE IT
 
 ## Aspect ratio
-For each bootstrap breakpoint adds `.ar-$breakpoint-$number ` class.  
+For each bootstrap breakpoint adds .ar-$breakpoint-$number class.
+###### USE
+`.ar-$breakpoint-$number`
 ###### DEFAULT VARIABLES
 The $number is between 5-230 with step 5.  
 Class `.ar-md-20` will add a 20% padding-top css rule to the given element.  
@@ -23,9 +25,10 @@ This will effect the height of the element depending the width, so it will maint
 
 
 ## Backgrounds
+###### USE
+###### DEFAULT VARIABLES
 This is for background images and their positions.
 [data-bg-src] styles for cover images.
-
 .bg-position-$position
 $position: top
            bottom
@@ -33,27 +36,28 @@ $position: top
 
 
 ## Extras
+###### USE
+###### DEFAULT VARIABLES
 Reset focus outline & .overflow-hidden & .h-100 classes.
 
-
 ## Icons
+###### USE
+###### DEFAULT VARIABLES
 Fonticons sizes.
 .icon-xs (13px)
 You can edit this sizes by include a variable file before you call the specific scss file.
 
-
 ## Images
-Usefull classes for svg images.
+Usefull classes for svg images.  
 In addition with .img-fluid class of bootstrap the images go to the next level!
 ###### USE
-.img-#{$number}
+.img-$number
 ###### DEFAULT VARIABLES
-
 
 ## Links
 Set colors for the links that you will need for your project, in a variables file.
 ###### USE
-.link-#{$name}
+.link-$color-name
 ###### DEFAULT VARIABLES
 $link-colors: (
     white:   white,
