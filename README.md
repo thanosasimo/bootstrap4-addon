@@ -18,4 +18,7 @@ The #number is between 5-230 with step 5.
 
 e.g.  
 Class `.ar-md-20` will add a 20% padding-top css rule to the given element.  
-This will effectthe height of the element depending the width, so it will maintain its aspect ratio.
+This will effect the height of the element depending the width, so it will maintain its aspect ratio.
+
+
+### Backgrounds
