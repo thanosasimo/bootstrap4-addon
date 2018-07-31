@@ -2,7 +2,7 @@
 > Extra css classes and helpers for bootstrap 4 grid system.
 
 ## ASSETS LIST
-* Aspect ratio
+* [Aspect ratio](#aspect-ratio)
 * Backgrounds
 * Extras
 * Icons
@@ -11,8 +11,6 @@
 * Negative margins
 * Typography
 * Vertical height
-
-[create an anchor](#anchors-in-markdown)
 
 ## HOW TO USE IT
 
@@ -68,11 +66,11 @@ $link-colors: (
     yellow:  yellow
 )
 
-## Negative Margins
+## Negative margins
 
 ## Typography
 
-## Vertical Heights
+## Vertical heights
 
 ## VARIABLES
 Copy paste this vars in a file.
