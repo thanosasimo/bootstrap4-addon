@@ -1,7 +1,7 @@
 # Bootstrap4-addon
 > Extra css classes and helpers for bootstrap 4 grid system.
 
-## Assets List
+## ASSETS LIST
 * Aspect ratio
 * Backgrounds
 * Extras
