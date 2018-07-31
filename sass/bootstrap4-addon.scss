@@ -3,6 +3,9 @@
 @import "node_modules/bootstrap/scss/variables";
 @import "node_modules/bootstrap/scss/mixins";
 
+// Addon Variables
+@import "variables";
+
 // Bootstrap Addon
 @import "aspect-ratio";
 @import "backgrounds";
@@ -13,4 +16,3 @@
 @import "negative-margins";
 @import "typography";
 @import "vertical-height";
-/**/

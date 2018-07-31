@@ -15,50 +15,21 @@ button {
     }
 }
 
-.link-white {
-    color: $white;
-    &:hover {
-        color: $red;
-        i:before {
-            color: $red;
-        }
-    }
-}
-
-.link-black {
-    color: $black;
-    &:hover {
-        color: $red;
-    }
-}
-
-.link-medium {
-    color: $gray-500;
-    &:hover {
-        color: $gray-600;
-        i:before {
-            color: $gray-600;
-        }
-    }
-}
-
-.link-red {
-    color: $red;
-    &:hover {
-        color: $red;
-    }
-}
-
-.link-blue {
-    color: $blue;
-    &:hover {
-        color: $blue;
-    }
-}
-
 .link-underline {
     text-decoration: underline;
     &:hover {
         text-decoration: none;
+    }
+}
+
+@each $name, $color in $link-colors {
+    .link-#{$name} {
+        color: $color;
+        &:hover {
+            color: lighten($color, 25%);
+            i:before {
+                color: lighten($color, 25%);
+            }
+        }
     }
 }

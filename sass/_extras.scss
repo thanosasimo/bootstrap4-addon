@@ -2,10 +2,6 @@
     outline: none;
 }
 
-.overflow-hidden {
-    overflow: hidden !important;
-}
-
 button {
     background: transparent;
     border: none;
@@ -13,6 +9,10 @@ button {
     &:focus {
         outline: none;
     }
+}
+
+.overflow-hidden {
+    overflow: hidden !important;
 }
 
 .h-100 {
