@@ -12,7 +12,7 @@
 * Typography
 * Vertical height
 
-# HOW TO USE IT
+## HOW TO USE IT
 
 ## Aspect ratio
 For each bootstrap breakpoint adds `.ar-$breakpoint-#number ` class.  
