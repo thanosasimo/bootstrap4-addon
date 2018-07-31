@@ -74,8 +74,8 @@ $link-colors: (
 ## Vertical heights
 
 ## VARIABLES
-Copy paste this vars in a file.
-Change the variables according to your needs.
+Copy paste this vars in a file.  
+Change the variables according to your needs.  
 Call this file before the scss assets.
 
 ``` scss
