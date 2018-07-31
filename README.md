@@ -46,16 +46,16 @@ You can edit this sizes by include a variable file before you call the specific 
 ## Images
 Usefull classes for svg images.
 In addition with .img-fluid class of bootstrap the images go to the next level!
-##### Use
+###### USE
 .img-#{$number}
-##### Default Variables
+###### DEFAULT VARIABLES
 
 
 ## Links
 Set colors for the links that you will need for your project, in a variables file.
-##### Use
+###### USE
 .link-#{$name}
-##### Default Variables
+###### DEFAULT VARIABLES
 $link-colors: (
     white:   white,
     black:   black,
