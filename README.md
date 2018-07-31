@@ -68,7 +68,9 @@ $link-colors: (
 
 ## Negative Margins
 
-## Negative Margins
+## Typography
+
+## Vertical Heights
 
 ## VARIABLES
 Copy paste this vars in a file.
