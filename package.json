@@ -24,6 +24,6 @@
   },
   "homepage": "https://github.com/thanosasimo/bootstrap4-addon#readme",
   "devDependencies": {
-    "bootstrap": "^4.1.1"
+    "bootstrap": "^4.1.3"
   }
 }
