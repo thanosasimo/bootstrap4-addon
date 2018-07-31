@@ -2,10 +2,29 @@ p {
     letter-spacing: $font-spacing-base;
 }
 
-a,
-button {
-    padding: 0px;
-    transition: all 250ms ease-out;
+.text-wings {
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    display: inline-block;
+    padding: 0px 20px;
+    &:before,
+    &:after {
+        content: "";
+        display: block;
+        height: 6px;
+        width: 150%;
+        background: $black;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+    &:before {
+        right: 100%;
+    }
+    &:after {
+        left: 100%;
+    }
 }
 
 .text-underline {
@@ -32,40 +51,6 @@ button {
     text-decoration: underline;
 }
 
-.link-white {
-    color: $white;
-    &:hover {
-        color: $gray-300;
-        i:before {
-            color: $gray-300;
-        }
-    }
-}
-
-.link-medium {
-    color: $gray-500;
-    &:hover {
-        color: $gray-600;
-        i:before {
-            color: $gray-600;
-        }
-    }
-}
-
-.link-red {
-    color: $red;
-    &:hover {
-        color: $red;
-    }
-}
-
-.link-blue {
-    color: $blue;
-    &:hover {
-        color: $blue;
-    }
-}
-
 .line-height-07 {
     line-height: .7;
 }
@@ -82,12 +67,36 @@ button {
     line-height: 1.4;
 }
 
+.line-height-2 {
+    line-height: 2;
+}
+
+.font-weight-book {
+    font-weight: $font-weight-book !important;
+}
+
 .font-weight-medium {
     font-weight: $font-weight-medium !important;
 }
 
-.font-weight-heavy {
-    font-weight: $font-weight-heavy !important;
+.font-weight-exbold {
+    font-weight: $font-weight-exbold !important;
+}
+
+.font-weight-black {
+    font-weight: $font-weight-black !important;
+}
+
+.display-4 {
+    font-size: $display4-size !important;
+    font-weight: $display4-weight !important;
+    line-height: .8;
+}
+
+.display-5 {
+    font-size: $display5-size !important;
+    font-weight: $display5-weight !important;
+    line-height: .8;
 }
 
 .xxlarge {
