@@ -12,6 +12,8 @@
 * Typography
 * Vertical height
 
+[create an anchor](#anchors-in-markdown)
+
 ## HOW TO USE IT
 
 ## Aspect ratio
