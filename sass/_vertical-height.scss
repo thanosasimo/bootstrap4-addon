@@ -4,10 +4,10 @@
         $i: 5;
         @while $i < 235 {
             .vh#{$infix}-#{$i} {
-                min-height: 0 + $i + vh + "!important;"
+                min-height: 0 + $i + vh + "!important"
             }
-            .vh-max-#{$infix}-#{$i} {
-                max-height: 0 + $i + vh + "!important;"
+            .vh-max#{$infix}-#{$i} {
+                max-height: 0 + $i + vh + "!important"
             }
             $i: $i+5;
         }

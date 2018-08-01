@@ -4,7 +4,7 @@
         $i: 5;
         @while $i < 235 {
             .ar#{$infix}-#{$i} {
-                padding-top: $i + % + !important;
+                padding-top: $i + 0% + !important;
             }
             $i: $i+5;
         }

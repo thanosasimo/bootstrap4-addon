@@ -4,7 +4,8 @@
   "description": "> Extra css classes and helpers for bootstrap 4 grid system.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "node-sass --output-style compressed sass/bootstrap4-addon.scss dist/bootstrap4-addon.min.css",
+    "watch": "node-sass --watch sass/bootstrap4-addon.scss dist/bootstrap4-addon.css"
   },
   "repository": {
     "type": "git",
@@ -24,6 +25,7 @@
   },
   "homepage": "https://github.com/thanosasimo/bootstrap4-addon#readme",
   "devDependencies": {
-    "bootstrap": "^4.1.3"
+    "bootstrap": "^4.1.3",
+    "node-sass": "^4.9.2"
   }
 }
