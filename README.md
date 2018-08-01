@@ -35,15 +35,24 @@ $position: top
 ```
 
 ## Extras
-###### USE
-###### DEFAULT VARIABLES
 Reset focus outline & .overflow-hidden & .h-100 classes.
+###### USE
+`.overflow-hidden`  
+`.h-100` height 100%  
 
 ## Icons
-###### USE
-###### DEFAULT VARIABLES
 Fonticons sizes.
-.icon-xs (13px)
+###### USE
+`.icon-xs`  
+###### DEFAULT VARIABLES
+```scss
+$icon-size-xxl:      40px !default;
+$icon-size-xl:       30px !default;
+$icon-size-l:        25px !default;
+$icon-size-m:        20px !default;
+$icon-size-s:        15px !default;
+$icon-size-xs:       13px !default;
+```
 You can edit this sizes by include a variable file before you call the specific scss file.
 
 ## Images
