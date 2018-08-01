@@ -1,15 +1,15 @@
 @each $breakpoint in map-keys($grid-breakpoints) {
     @include media-breakpoint-up($breakpoint) {
         $infix: breakpoint-infix($breakpoint, $grid-breakpoints);
-        $i: 5;
-        @while $i < 235 {
+        $i: $vertical-heights-step;
+        @while $i <= $vertical-heights-max {
             .vh#{$infix}-#{$i} {
                 min-height: 0 + $i + vh + "!important"
             }
             .vh-max#{$infix}-#{$i} {
                 max-height: 0 + $i + vh + "!important"
             }
-            $i: $i+5;
+            $i: $i+$vertical-heights-step;
         }
     }
 }

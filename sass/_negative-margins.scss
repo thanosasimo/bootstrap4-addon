@@ -1,12 +1,12 @@
 @each $breakpoint in map-keys($grid-breakpoints) {
     @include media-breakpoint-up($breakpoint) {
         $infix: breakpoint-infix($breakpoint, $grid-breakpoints);
-        $i: 5;
-        @while $i < 345 {
+        $i: $negative-margins-step;
+        @while $i <= $negative-margins-max {
             .mt#{$infix}--#{$i} {
                 margin-top: -$i + px + !important;
             }
-            $i: $i+5;
+            $i: $i+$negative-margins-step;
         }
     }
 }

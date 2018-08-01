@@ -112,16 +112,16 @@ Call this file before the scss assets.
 
 ``` scss
 // Icons
-$icon-size-xxl:      40px !default;
-$icon-size-xl:       30px !default;
-$icon-size-l:        25px !default;
-$icon-size-m:        20px !default;
-$icon-size-s:        15px !default;
-$icon-size-xs:       13px !default;
+$icon-size-xxl:         40px !default;
+$icon-size-xl:          30px !default;
+$icon-size-l:           25px !default;
+$icon-size-m:           20px !default;
+$icon-size-s:           15px !default;
+$icon-size-xs:          13px !default;
 
 // Images
-$image-width:        230 !default;
-$image-width-step:   1 !default;
+$image-width:           230 !default;
+$image-width-step:      5 !default;
 
 // Links
 $link-colors: (
@@ -133,6 +133,10 @@ $link-colors: (
     blue:    blue,
     yellow:  yellow
 );
+
+// Negative margins
+$negative-margins-max:      230 !default;
+$negative-margins-step:     5 !default;
 
 // Typography
 $font-weight-book:      300 !default;
@@ -151,4 +155,8 @@ $font-size-lg:          ($font-size-base * 1.0714) !default;
 $font-size-xsm:         ($font-size-base * .8571) !default;
 $font-size-xxsm:        ($font-size-base * .7857) !default;
 $font-size-xxxsm:       ($font-size-base * .7142) !default;
+
+// Vertical heights
+$vertical-heights-max:      230 !default;
+$vertical-heights-step:     5 !default;
 ```
