@@ -19,7 +19,7 @@ $link-colors: (
     green:   green,
     blue:    blue,
     yellow:  yellow
-);
+) !default;
 
 // Negative margins
 $negative-margins-max:      230 !default;
