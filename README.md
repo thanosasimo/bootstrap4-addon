@@ -139,8 +139,11 @@ $negative-margins-max:      230 !default;
 $negative-margins-step:     5 !default;
 
 // Typography
+$font-size-base:        1rem !default;
+
 $font-weight-book:      300 !default;
 $font-weight-medium:    500 !default;
+$font-weight-bold:      600 !default;
 $font-weight-exbold:    800 !default;
 $font-weight-black:     900 !default;
 
