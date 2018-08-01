@@ -6,7 +6,7 @@
             .vh#{$infix}-#{$i} {
                 min-height: 0 + $i + vh + "!important;"
             }
-            .vh#{$infix}-max-#{$i} {
+            .vh-max-#{$infix}-#{$i} {
                 max-height: 0 + $i + vh + "!important;"
             }
             $i: $i+5;

@@ -95,12 +95,15 @@ $number: 5-340 with step 5.
 `.line-height-$number`  
 `.font-weight-$weight`  
 `.display-4` & `display-5`  
-`.xxlarge`, `.xlarge`, `.large`, `.xsmall`, `.xxsmall`, `.xxxsmall`
+`.xxlarge`, `.xlarge`, `.large`, `.xsmall`, `.xxsmall`, `.xxxsmall`  
 ###### DEFAULT VARIABLES
 
 ## Vertical heights
 ###### USE
+`.vh-$breakpoints-$number`  
+`.vh-max-$breakpoints-$number`  
 ###### DEFAULT VARIABLES
+$number: 5-230 with step 5.  
 
 ### VARIABLES
 Copy paste this vars in a file.  
