@@ -15,25 +15,24 @@
 ### HOW TO USE IT
 
 ## Aspect ratio
-For each bootstrap breakpoint adds .ar-$breakpoint-$number class.
+For each bootstrap breakpoint adds .ar-$breakpoint-$number class.  
+Class `.ar-md-20` will add a 20% padding-top css rule to the given element.  
+This will effect the height of the element depending the width, so it will maintain its aspect ratio.  
 ###### USE
 `.ar-$breakpoint-$number`
 ###### DEFAULT VARIABLES
-The $number is between 5-230 with step 5.  
-Class `.ar-md-20` will add a 20% padding-top css rule to the given element.  
-This will effect the height of the element depending the width, so it will maintain its aspect ratio.  
-
+The $number can be a number between 5-230 with step 5.  
 
 ## Backgrounds
+This is for background images and their positions.  
 ###### USE
-###### DEFAULT VARIABLES
-This is for background images and their positions.
-[data-bg-src] styles for cover images.
+`[data-bg-src]` or `[bg-img-src]` background size cover.  
+``` scss
 .bg-position-$position
 $position: top
            bottom
            bottom-left
-
+```
 
 ## Extras
 ###### USE
