@@ -80,10 +80,27 @@ $link-colors: (
 )
 
 ## Negative margins
+Adds .mt#{$infix}--#{$i} classes for negative margins.  
+Works like bootstrap's margins and paddings classes.  
+###### USE
+`.mt-$breakpoint-$number`
+###### DEFAULT VARIABLES
+$number: 5-340 with step 5.  
 
 ## Typography
+###### USE
+`.text-wings`  
+`.text-underline`  
+`.text-underline-simple`  
+`.line-height-$number`  
+`.font-weight-$weight`  
+`.display-4` & `display-5`  
+`.xxlarge`, `.xlarge`, `.large`, `.xsmall`, `.xxsmall`, `.xxxsmall`
+###### DEFAULT VARIABLES
 
 ## Vertical heights
+###### USE
+###### DEFAULT VARIABLES
 
 ### VARIABLES
 Copy paste this vars in a file.  
@@ -110,4 +127,22 @@ $link-colors: (
     blue:    blue,
     yellow:  yellow
 );
+
+// Typography
+$font-weight-book:      300 !default;
+$font-weight-medium:    500 !default;
+$font-weight-exbold:    800 !default;
+$font-weight-black:     900 !default;
+
+$display4-size:         3.3571rem !default;
+$display4-weight:       $font-weight-bold;
+$display5-size:         2.5rem !default;
+$display5-weight:       $font-weight-bold;
+
+$font-size-xxlg:        ($font-size-base * 1.2857) !default;
+$font-size-xlg:         ($font-size-base * 1.1428) !default;
+$font-size-lg:          ($font-size-base * 1.0714) !default;
+$font-size-xsm:         ($font-size-base * .8571) !default;
+$font-size-xxsm:        ($font-size-base * .7857) !default;
+$font-size-xxxsm:       ($font-size-base * .7142) !default;
 ```
