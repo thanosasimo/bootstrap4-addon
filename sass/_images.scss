@@ -1,7 +1,7 @@
-$i: 5;
-@while $i < 235 {
+$i: $image-width-step;
+@while $i <= $image-width {
     .img-#{$i} {
         width: $i + px;
     }
-    $i: $i+5;
+    $i: $i+$image-width-step;
 }

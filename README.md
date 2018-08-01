@@ -119,8 +119,11 @@ $icon-size-m:        20px !default;
 $icon-size-s:        15px !default;
 $icon-size-xs:       13px !default;
 
+// Images
+$image-width:        230 !default;
+$image-width-step:   1 !default;
 
-// Link Colors
+// Links
 $link-colors: (
     white:   white,
     black:   black,
