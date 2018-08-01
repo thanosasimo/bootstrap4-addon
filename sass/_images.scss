@@ -1,15 +1,7 @@
-.img-30 {
-    width: 30px;
-}
-
-.img-60 {
-    width: 60px;
-}
-
-.img-90 {
-    width: 90px;
-}
-
-.img-210 {
-    width: 210px;
+$i: 5;
+@while $i < 235 {
+    .img-#{$i} {
+        width: $i + px;
+    }
+    $i: $i+5;
 }

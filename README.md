@@ -21,7 +21,7 @@ This will effect the height of the element depending the width, so it will maint
 ###### USE
 `.ar-$breakpoint-$number`
 ###### DEFAULT VARIABLES
-The $number can be a number between 5-230 with step 5.  
+$number: 5-230 with step 5.  
 
 ## Backgrounds
 This is for background images and their positions.  
@@ -56,11 +56,13 @@ $icon-size-xs:       13px !default;
 You can edit this sizes by include a variable file before you call the specific scss file.
 
 ## Images
-Usefull classes for svg images.  
-In addition with .img-fluid class of bootstrap the images go to the next level!
+Adds width to images.  
+Usefull for svg images.  
+Use it with bootstrap's .img-fluid class and with caution!
 ###### USE
-.img-$number
+`.img-$number`
 ###### DEFAULT VARIABLES
+$number: 5-230 with step 5.  
 
 ## Links
 Set colors for the links that you will need for your project, in a variables file.
