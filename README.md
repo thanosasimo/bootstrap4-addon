@@ -92,7 +92,7 @@ $number: 5-340 with step 5.
 `.text-wings`  
 `.text-underline`  
 `.text-underline-simple`  
-`.line-height-$number`  
+`.line-height-$number` ($number: 07-20)  
 `.font-weight-$weight`  
 `.display-4` & `display-5`  
 `.xxlarge`, `.xlarge`, `.large`, `.xsmall`, `.xxsmall`, `.xxxsmall`  
