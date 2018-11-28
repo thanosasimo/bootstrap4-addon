@@ -1,7 +1,13 @@
-a,
 button {
-    padding: 0px;
+    background: transparent;
+    border: none;
+    padding: 0;
+    cursor: pointer;
     transition: all 250ms ease-out;
+
+    &:focus {
+        outline: none;
+    }
 }
 
 .svg-link {
@@ -17,16 +23,20 @@ button {
 
 .link-underline {
     text-decoration: underline;
+
     &:hover {
         text-decoration: none;
     }
 }
 
-@each $name, $color in $link-colors {
+@each $name,
+$color in $link-colors {
     .link-#{$name} {
         color: $color;
+
         &:hover {
             color: lighten($color, 25%);
+
             i:before {
                 color: lighten($color, 25%);
             }
