@@ -47,6 +47,9 @@ $font-size-xsm:         ($font-size-base * .8571) !default;
 $font-size-xxsm:        ($font-size-base * .7857) !default;
 $font-size-xxxsm:       ($font-size-base * .7142) !default;
 
+$lh-peek:               3 !default;
+$lh-step:               1 !default;
+
 // Vertical heights
 $vertical-heights-max:      230 !default;
 $vertical-heights-step:     5 !default;
