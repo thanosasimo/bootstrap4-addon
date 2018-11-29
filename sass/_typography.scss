@@ -131,6 +131,16 @@
     line-height: .8;
 }
 
+.display-6 {
+    font-size: $display6-size !important;
+    font-weight: $display6-weight !important;
+    line-height: .8;
+}
+
+.xxxlarge {
+    font-size: $font-size-xxlg;
+}
+
 .xxlarge {
     font-size: $font-size-xxlg;
 }
@@ -141,6 +151,10 @@
 
 .large {
     font-size: $font-size-lg;
+}
+
+.small {
+    font-size: $font-size-sm;
 }
 
 .xsmall {
