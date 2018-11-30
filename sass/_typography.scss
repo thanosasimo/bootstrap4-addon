@@ -129,20 +129,20 @@
 
 .display-4 {
     font-size: $display4-size !important;
-    font-weight: $display4-weight !important;
-    line-height: .8;
+    font-weight: $display4-weight;
+    line-height: $display-line-height;
 }
 
 .display-5 {
     font-size: $display5-size !important;
-    font-weight: $display5-weight !important;
-    line-height: .8;
+    font-weight: $display5-weight;
+    line-height: $display-line-height;
 }
 
 .display-6 {
     font-size: $display6-size !important;
-    font-weight: $display6-weight !important;
-    line-height: .8;
+    font-weight: $display6-weight;
+    line-height: $display-line-height;
 }
 
 .xxxlarge {
