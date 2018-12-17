@@ -11,6 +11,8 @@ button {
 }
 
 .svg-link {
+    position: relative;
+
     &:after {
         content: "";
         position: absolute;
