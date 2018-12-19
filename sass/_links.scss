@@ -37,10 +37,10 @@ $color in $link-colors {
         color: $color;
 
         &:hover {
-            color: lighten($color, 25%);
+            color: darken($color, 25%);
 
             i:before {
-                color: lighten($color, 25%);
+                color: darken($color, 25%);
             }
         }
     }
