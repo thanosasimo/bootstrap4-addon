@@ -35,6 +35,7 @@ button {
 $color in $link-colors {
     .link-#{$name} {
         color: $color;
+        transition: color 250ms ease-out;
 
         &:hover {
             color: darken($color, 25%);
