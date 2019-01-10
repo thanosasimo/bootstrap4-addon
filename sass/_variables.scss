@@ -43,6 +43,8 @@ $display4-size:         3.3571rem !default;
 $display4-weight:       $font-weight-bold;
 $display5-size:         2.5rem !default;
 $display5-weight:       $font-weight-bold;
+$display6-size:         2.5rem !default;
+$display6-weight:       $font-weight-bold;
 
 $font-size-xxlg:        ($font-size-base * 1.2857) !default;
 $font-size-xlg:         ($font-size-base * 1.1428) !default;
@@ -57,3 +59,6 @@ $lh-step:               1 !default;
 // Vertical heights
 $vertical-heights-max:      230 !default;
 $vertical-heights-step:     5 !default;
+
+/////////////////////////////////////////////////////////////////////////// TYPOGRAPHY
+$text-wings-height:       3px !default;

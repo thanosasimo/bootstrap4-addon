@@ -8,7 +8,7 @@
     &:after {
         content: "";
         display: block;
-        height: 6px;
+        height: $text-wings-height;
         width: 150%;
         background: currentColor;
         position: absolute;
