@@ -38,10 +38,10 @@ $color in $link-colors {
         transition: color 250ms ease-out;
 
         &:hover {
-            color: darken($color, 25%);
+            color: lighten($color, 25%);
 
             i:before {
-                color: darken($color, 25%);
+                color: lighten($color, 25%);
             }
         }
     }

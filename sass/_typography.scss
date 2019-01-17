@@ -47,14 +47,6 @@
     text-decoration: underline;
 }
 
-// $i: $lh-step;
-// @while $i <= $lh-peek {
-//     .lh-#{$i} {
-//         line-height: $i + px;
-//     }
-//     $i: $i+$lh-step;
-// }
-
 .line-height-07 {
     line-height: .7 !important;
 }
