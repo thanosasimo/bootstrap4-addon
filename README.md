@@ -111,55 +111,60 @@ Change the variables according to your needs.
 Call this file before the scss assets.
 
 ``` scss
-// Grid
+/////////////////////////////////////////////////////////////////////////// GRID 
 $grid-columns:                16 !default;
 $grid-gutter-width:           10px !default;
-
+ 
 $container-max-widths: (
   sm: 540px,
   md: 720px,
   lg: 960px,
   xl: 1180px
 ) !default;
-
-// Colors
-// stylelint-disable
+ 
+/////////////////////////////////////////////////////////////////////////// COLORS
 $white:    #fff !default;
-$gray-100: #eeeeee !default;
-$gray-200: #e8e7e7 !default;
-$gray-300: #dee2e6 !default;
+$gray-100: #f5f5f5 !default;
+$gray-200: #ebebeb !default;
+$gray-300: #ddd !default;
 $gray-400: #d8d8d8 !default;
-$gray-500: #969696 !default;
-$gray-600: #676767 !default;
+$gray-500: #bcbcbc !default;
+$gray-600: #919191 !default;
 $gray-700: #4a4a4a !default;
-$gray-800: #333333 !default;
-$gray-900: #212529 !default;
+$gray-800: #212121 !default;
+$gray-900: #030303 !default;
 $black:    #000 !default;
-
+ 
 $grays: () !default;
 $grays: map-merge((
-  "100": $gray-100,
-  "200": $gray-200,
-  "300": $gray-300,
-  "400": $gray-400,
-  "500": $gray-500,
-  "600": $gray-600,
-  "700": $gray-700,
-  "800": $gray-800,
-  "900": $gray-900
+  "100": $gray-100, 
+  "200": $gray-200, 
+  "300": $gray-300, 
+  "400": $gray-400, 
+  "500": $gray-500, 
+  "600": $gray-600, 
+  "700": $gray-700, 
+  "800": $gray-800, 
+  "900": $gray-900 
 ), $grays);
-
-$blue:       #2f4486 !default;
-$indigo:     #6610f2 !default;
-$purple:     #6f42c1 !default;
-$pink:       #e83e8c !default;
-$red:        #e1251b !default;
-$orange:     #fd7e14 !default;
-$yellow:     #ffc107 !default;
-$green:      #7aaf08 !default;
-$teal:       #20c997 !default;
-$cyan:       #68c9c9 !default;
-
+ 
+$blue:           #345799 !default;
+$indigo:         #6610f2 !default;
+$purple:         #6f42c1 !default;
+$pink:           #e83e8c !default;
+$red:            #af282b !default;
+$orange:         #ff8405 !default;
+$yellow:         #ffca05 !default;
+$green:          #c8f000 !default;
+$teal:           #20c997 !default;
+$cyan:           #367fbb !default;
+$acadia:         #2f2d28 !default;
+$dune:           #514e47 !default;
+$masala:         #5f5c55 !default;
+$lotus:          #8a4f48 !default;
+$night-rider:    #353333 !default;
+$porcelain:      #e3e3e2 !default;
+ 
 $colors: () !default;
 $colors: map-merge((
   "blue":           $blue,
@@ -173,98 +178,128 @@ $colors: map-merge((
   "teal":           $teal,
   "cyan":           $cyan,
   "white":          $white,
-  "gray-light":     $gray-100,
-  "gray-medium":    $gray-400,
-  "gray":           $gray-500,
-  "gray-dark":      $gray-700,
-  "gray-darker":    $gray-800
+  "lighter":        $gray-100,
+  "light":          $gray-200,
+  "medium":         $gray-400,
+  "gray":           $gray-600,
+  "dark":           $gray-700,
+  "darker":         $gray-800
 ), $colors);
-
-$primary:       $red !default;
-$secondary:     $cyan !default;
+ 
+$primary:       $dune !default;
+$secondary:     $lotus !default;
 $success:       $green !default;
 $info:          $cyan !default;
-$warning:       $yellow !default;
+$warning:       $orange !default;
 $danger:        $red !default;
-$light:         $gray-100 !default;
-$lighter:       $gray-200 !default;
+$lighter:       $gray-100 !default;
+$light:         $gray-200 !default;
 $medium:        $gray-400 !default;
 $gray:          $gray-500 !default;
-$dark:          $gray-700 !default;
+$dark:          $gray-600 !default;
 $darker:        $gray-800 !default;
-
+ 
 $theme-colors: () !default;
 $theme-colors: map-merge((
-  "primary":    $primary,
-  "secondary":  $secondary,
-  "success":    $success,
-  "info":       $info,
-  "warning":    $warning,
-  "danger":     $danger,
-  "light":      $light,
-  "lighter":    $lighter,
-  "medium":     $medium,
-  "gray":       $gray,
-  "dark":       $dark,
-  "darker":     $darker,
-  "black":      $black
+  "primary":      $primary, 
+  "secondary":    $secondary, 
+  "acadia":       $acadia, 
+  "masala":       $masala, 
+  "porcelain":    $porcelain, 
+  "night-rider":  $night-rider, 
+  "success":      $success, 
+  "info":         $info, 
+  "warning":      $warning, 
+  "red":          $red, 
+  "danger":       $danger, 
+  "lighter":      $lighter, 
+  "light":        $light, 
+  "medium":       $medium, 
+  "gray":         $gray, 
+  "dark":         $dark, 
+  "darker":       $darker, 
+  "black":        $black 
 ), $theme-colors);
-
+ 
 $body-bg: $white !default;
+ 
+/////////////////////////////////////////////////////////////////////////// FONTS
+$font-family-sans-serif:      "brother-1816", sans-serif !default;
+$font-family-monospace:       "trailmade", script !default;
 
-// Fonts
-$font-family-sans-serif:      "roboto-slab",sans-serif !default;
-
-$font-weight-light:           200 !default;
+$font-weight-thin:            100 !default;
+$font-weight-light:           300 !default;
+$font-weight-book:            300 !default;
 $font-weight-normal:          400 !default;
+$font-weight-regular:         400 !default;
 $font-weight-medium:          500 !default;
 $font-weight-bold:            700 !default;
+$font-weight-exbold:          800 !default;
+$font-weight-black:           900 !default;
+$font-weight-heavy:           900 !default;
 
-$font-size-base:              1rem !default; // Assumes the browser default, typically `16px`
+$font-size-base:              .87rem !default;
 
-$display1-size:               12.8571rem !default;
-$display2-size:               6.2142rem !default;
-$display3-size:               5rem !default;
-$display4-size:               3.3571rem !default;
-$display5-size:               2.5rem !default;
+$display1-size:               6.25rem !default;
+$display2-size:               3.375rem !default;
+$display3-size:               2.625rem !default;
+$display4-size:               2.375rem !default;
+$display5-size:               2.25rem !default;
+$display6-size:               2rem !default;
+ 
+$display1-weight:             $font-weight-thin !default;
+$display2-weight:             $font-weight-thin !default;
+$display3-weight:             $font-weight-thin !default;
+$display4-weight:             $font-weight-thin !default;
+$display5-weight:             $font-weight-thin !default;
+$display6-weight:             $font-weight-thin !default;
+ 
+$display-line-height:         1.2 !default;
 
-$display1-weight:             800 !default;
-$display2-weight:             800 !default;
-$display3-weight:             800 !default;
-$display4-weight:             800 !default;
-$display5-weight:             800 !default;
+$h1-font-size:                1.9375rem !default;
+$h2-font-size:                1.87rem !default;
+$h3-font-size:                1.6875rem !default;
+$h4-font-size:                1.53rem !default;
+$h5-font-size:                1.375rem !default;
+$h6-font-size:                1.26rem !default;
+ 
+$headings-margin-bottom:      0rem !default;
+$headings-font-weight:        $font-weight-book;
+$headings-color:              $primary !default;
 
-$display-line-height:         .9 !default;
+$font-size-xxxlg:             1.1875rem !default;
+$font-size-xxlg:              1.125rem !default;
+$font-size-xlg:               1.0625rem !default;
+$font-size-lg:                1rem !default;
+$font-size-sm:                0.87rem !default;
+$font-size-xsm:               0.82rem !default;
+$font-size-xxsm:              0.76rem !default;
+$font-size-xxxsm:             0.6875rem !default;
 
-$small-font-size:             83% !default;
-
+$small-font-size:             96% !default;
+ 
 $font-weight-base:            $font-weight-normal !default;
-$font-spacing-base:           0.00rem !default;
-$line-height-base:            1.2 !default;
+$font-spacing-base:           0rem !default;
+$line-height-base:            1.6 !default;
 $paragraph-margin-bottom:     0rem !default;
 
-$h1-font-size:                $font-size-base * 4.2857 !default;
-$h2-font-size:                $font-size-base * 3.0 !default;
-$h3-font-size:                $font-size-base * 1.875 !default;
-$h4-font-size:                $font-size-base * 2.0714 !default;
-$h5-font-size:                $font-size-base * 1.7142 !default;
-$h6-font-size:                $font-size-base * 1.5 !default;
-
-$headings-margin-bottom:      0rem !default;
-$headings-font-weight:        $font-weight-bold;
-
-$body-color:                  $black;
-
-// Links
-$link-color:                  $black !default;
-$link-hover-color:            $red !default;
+$body-color:                  $primary;
+ 
+/////////////////////////////////////////////////////////////////////////// LINKS 
+$link-color:                  $secondary !default;
+$link-hover-color:            $primary !default;
 $link-hover-decoration:       none !default;
 
-// Spacers
+$link-colors: (
+    primary:    $primary,
+    secondary:  $secondary 
+);
+ 
+/////////////////////////////////////////////////////////////////////////// SPACERS 
 $spacer: 1rem !default;
 $spacers: () !default;
 $spacers: map-merge((
-  0: 0,
+  0: 0, 
   1: ($spacer * .25),
   2: ($spacer * .5),
   3: $spacer,
@@ -305,91 +340,43 @@ $spacers: map-merge((
   38: ($spacer * 18.5),
   39: ($spacer * 19),
   40: ($spacer * 19.5),
-  50: ($spacer * 29)
+  41: ($spacer * 20),
+  42: ($spacer * 20.5),
+  43: ($spacer * 21),
+  44: ($spacer * 21.5),
+  45: ($spacer * 22),
+  46: ($spacer * 22.5),
+  47: ($spacer * 23),
+  48: ($spacer * 23.5),
+  49: ($spacer * 24),
+  50: ($spacer * 25.5)
 ), $spacers);
-
-// Cards
-
-$card-spacer-y:                     0 !default;
-$card-spacer-x:                     0 !default;
-$card-border-width:                 0 !default;
-$card-border-radius:                0 !default;
-$card-border-color:                 $white !default;
-$card-inner-border-radius:          calc(#{$card-border-radius} - #{$card-border-width}) !default;
-$card-cap-bg:                       rgba($black, .03) !default;
-$card-bg:                           $white !default;
-
-$card-img-overlay-padding:          0 !default;
-
-$card-group-margin:                 0 !default;
-$card-deck-margin:                  $card-group-margin !default;
-
-$card-columns-count:                2 !default;
-$card-columns-gap:                  0em !default;
-$card-columns-margin:               $card-spacer-y !default;
-
-/*
-***
-***
-/* ********* BOOTSTRAP4-ADDON
-***
-***
-***
-*/
-
-// Icons
-$icon-size-xxl:         40px !default;
-$icon-size-xl:          30px !default;
-$icon-size-l:           25px !default;
+ 
+/////////////////////////////////////////////////////////////////////////// ICONS 
+$icon-size-xxl:         70px !default;
+$icon-size-xl:          35px !default;
+$icon-size-l:           33px !default;
 $icon-size-m:           20px !default;
 $icon-size-s:           15px !default;
 $icon-size-xs:          13px !default;
-
-// Images
-$image-width:           230 !default;
+ 
+/////////////////////////////////////////////////////////////////////////// IMAGES 
+$image-width:           380 !default;
 $image-width-step:      5 !default;
-
-// Links
-$link-colors: (
-    white:   white,
-    black:   black,
-    gray:    gray,
-    red:     red,
-    green:   green,
-    blue:    blue,
-    yellow:  yellow
-);
-
-// Negative margins
+ 
+/////////////////////////////////////////////////////////////////////////// NEGATIVE MARGINS
 $negative-margins-max:      230 !default;
 $negative-margins-step:     5 !default;
-
-// Typography
-$font-size-base:        1rem !default;
-
-$font-weight-thin:      200 !default;
-$font-weight-light:     300 !default;
-$font-weight-book:      300 !default;
-$font-weight-normal:    400 !default;
-$font-weight-medium:    500 !default;
-$font-weight-bold:      700 !default;
-$font-weight-exbold:    800 !default;
-$font-weight-black:     900 !default;
-
-$display4-size:         3.3571rem !default;
-$display4-weight:       $font-weight-bold;
-$display5-size:         2.5rem !default;
-$display5-weight:       $font-weight-bold;
-
-$font-size-xxlg:        ($font-size-base * 1.2857) !default;
-$font-size-xlg:         ($font-size-base * 1.1428) !default;
-$font-size-lg:          ($font-size-base * 1.0625) !default;
-$font-size-sm:          ($font-size-base * .8125) !default;
-$font-size-xsm:         ($font-size-base * .6875) !default;
-$font-size-xxsm:        ($font-size-base * .7857) !default;
-$font-size-xxxsm:       ($font-size-base * .7142) !default;
-
-// Vertical heights
+ 
+/////////////////////////////////////////////////////////////////////////// VERTICAL HEIGHTS
 $vertical-heights-max:      230 !default;
 $vertical-heights-step:     5 !default;
+
+/////////////////////////////////////////////////////////////////////////// TYPOGRAPHY
+$text-wings-height:       2px !default;
 ```
+
+## Update package
+npm version [<newversion> | major | minor | patch | premajor | preminor | prepatch | prerelease [--preid=<prerelease-id>] | from-git]  
+npm version [major | minor | patch] -m "Upgrade to %s for reasons"  
+npm publish  
