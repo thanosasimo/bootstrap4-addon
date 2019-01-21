@@ -1,12 +1,25 @@
 @each $breakpoint in map-keys($grid-breakpoints) {
     @include media-breakpoint-up($breakpoint) {
         $infix: breakpoint-infix($breakpoint, $grid-breakpoints);
-        $i: 5;
-        @while $i < 235 {
+        $i: $aspect-ratio-step;
+        @while $i <= $aspect-ratio-max {
             .ar#{$infix}-#{$i} {
                 padding-top: $i + 0% + !important;
             }
-            $i: $i+5;
+            $i: $i+$aspect-ratio-step;
         }
     }
 }
+
+// @each $breakpoint in map-keys($grid-breakpoints) {
+//     @include media-breakpoint-up($breakpoint) {
+//         $infix: breakpoint-infix($breakpoint, $grid-breakpoints);
+//         $i: $negative-margins-step;
+//         @while $i <= $negative-margins-max {
+//             .mt#{$infix}--#{$i} {
+//                 margin-top: -$i + px + !important;
+//             }
+//             $i: $i+$negative-margins-step;
+//         }
+//     }
+// }
