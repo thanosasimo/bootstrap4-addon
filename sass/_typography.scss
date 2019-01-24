@@ -220,3 +220,21 @@
 .xxxsmall {
     font-size: $font-size-xxxsm;
 }
+
+@each $breakpoint in map-keys($grid-breakpoints) {
+    @include media-breakpoint-up($breakpoint) {
+        $infix: breakpoint-infix($breakpoint, $grid-breakpoints);
+        .text#{$infix}-left {
+            text-align: left + !important;
+        }
+        .text#{$infix}-center {
+            text-align: center + !important;
+        }
+        .text#{$infix}-right {
+            text-align: right + !important;
+        }
+        .text#{$infix}-justify {
+            text-align: justify + !important;
+        }
+    }
+}
