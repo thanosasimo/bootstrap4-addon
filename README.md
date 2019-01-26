@@ -14,7 +14,7 @@
 
 ### HOW TO USE IT
 
-cp node_modules/laravel-mix/setup/webpack.mix.js ./
+cp node_modules/bootstrap4-addon/sass/_variables.scss ./your/local/folder
 
 ## Aspect ratio
 For each bootstrap breakpoint adds .ar-$breakpoint-$number class.  
