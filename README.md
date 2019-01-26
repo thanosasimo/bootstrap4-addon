@@ -14,6 +14,8 @@
 
 ### HOW TO USE IT
 
+cp node_modules/laravel-mix/setup/webpack.mix.js ./
+
 ## Aspect ratio
 For each bootstrap breakpoint adds .ar-$breakpoint-$number class.  
 Class `.ar-md-20` will add a 20% padding-top css rule to the given element.  
