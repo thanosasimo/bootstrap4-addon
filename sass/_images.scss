@@ -1,5 +1,6 @@
 $i: $image-width-step;
-@while $i <= $image-width {
+
+@for $i from $image-width-min through $image-width-max {
     .img-#{$i} {
         width: $i + px;
     }

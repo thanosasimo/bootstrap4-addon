@@ -248,7 +248,8 @@ $icon-size-s:           15px !default;
 $icon-size-xs:          13px !default;
  
 /////////////////////////////////////////////////////////////////////////// IMAGES 
-$image-width:           380 !default;
+$image-width-min:       0 !default;
+$image-width-max:       200 !default;
 $image-width-step:      5 !default;
  
 /////////////////////////////////////////////////////////////////////////// NEGATIVE MARGINS
