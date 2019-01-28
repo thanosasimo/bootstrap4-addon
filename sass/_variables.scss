@@ -35,22 +35,16 @@ $grays: map-merge((
   "900": $gray-900 
 ), $grays);
  
-$blue:           #345799 !default;
-$indigo:         #6610f2 !default;
-$purple:         #6f42c1 !default;
-$pink:           #e83e8c !default;
-$red:            #af282b !default;
-$orange:         #ff8405 !default;
-$yellow:         #ffca05 !default;
-$green:          #c8f000 !default;
-$teal:           #20c997 !default;
-$cyan:           #367fbb !default;
-$acadia:         #2f2d28 !default;
-$dune:           #514e47 !default;
-$masala:         #5f5c55 !default;
-$lotus:          #8a4f48 !default;
-$night-rider:    #353333 !default;
-$porcelain:      #e3e3e2 !default;
+$blue:         #0b52bf !default;
+$indigo:       #6610f2 !default;
+$purple:       #6f42c1 !default;
+$pink:         #e83e8c !default;
+$red:          #bf262a !default;
+$orange:       #ff8405 !default;
+$yellow:       #ffca05 !default;
+$green:        #42aa29 !default;
+$teal:         #20c997 !default;
+$cyan:         #367fbb !default;
  
 $colors: () !default;
 $colors: map-merge((
@@ -73,11 +67,12 @@ $colors: map-merge((
   "darker":         $gray-800
 ), $colors);
  
-$primary:       $dune !default;
-$secondary:     $lotus !default;
+$primary:       $blue !default;
+$secondary:     $cyan !default;
 $success:       $green !default;
 $info:          $cyan !default;
 $warning:       $orange !default;
+$red:           $red !default;
 $danger:        $red !default;
 $lighter:       $gray-100 !default;
 $light:         $gray-200 !default;
@@ -88,24 +83,20 @@ $darker:        $gray-800 !default;
  
 $theme-colors: () !default;
 $theme-colors: map-merge((
-  "primary":      $primary, 
-  "secondary":    $secondary, 
-  "acadia":       $acadia, 
-  "masala":       $masala, 
-  "porcelain":    $porcelain, 
-  "night-rider":  $night-rider, 
-  "success":      $success, 
-  "info":         $info, 
-  "warning":      $warning, 
-  "red":          $red, 
-  "danger":       $danger, 
-  "lighter":      $lighter, 
-  "light":        $light, 
-  "medium":       $medium, 
-  "gray":         $gray, 
-  "dark":         $dark, 
-  "darker":       $darker, 
-  "black":        $black 
+  "primary":    $primary, 
+  "secondary":  $secondary, 
+  "success":    $success, 
+  "info":       $info, 
+  "warning":    $warning, 
+  "red":        $red, 
+  "danger":     $danger, 
+  "lighter":    $lighter, 
+  "light":      $light, 
+  "medium":     $medium, 
+  "gray":       $gray, 
+  "dark":       $dark, 
+  "darker":     $darker, 
+  "black":      $black 
 ), $theme-colors);
  
 $body-bg: $white !default;
@@ -125,34 +116,34 @@ $font-weight-exbold:          800 !default;
 $font-weight-black:           900 !default;
 $font-weight-heavy:           900 !default;
 
-$font-size-base:              .87rem !default;
+$font-size-base:              .9375rem !default;
 
 $display1-size:               6.25rem !default;
-$display2-size:               3.375rem !default;
+$display2-size:               3rem !default;
 $display3-size:               2.625rem !default;
 $display4-size:               2.375rem !default;
 $display5-size:               2.25rem !default;
 $display6-size:               2rem !default;
  
-$display1-weight:             $font-weight-thin !default;
-$display2-weight:             $font-weight-thin !default;
-$display3-weight:             $font-weight-thin !default;
-$display4-weight:             $font-weight-thin !default;
-$display5-weight:             $font-weight-thin !default;
-$display6-weight:             $font-weight-thin !default;
+$display1-weight:             $font-weight-normal !default;
+$display2-weight:             $font-weight-normal !default;
+$display3-weight:             $font-weight-normal !default;
+$display4-weight:             $font-weight-normal !default;
+$display5-weight:             $font-weight-normal !default;
+$display6-weight:             $font-weight-normal !default;
  
 $display-line-height:         1.2 !default;
 
 $h1-font-size:                1.9375rem !default;
 $h2-font-size:                1.87rem !default;
 $h3-font-size:                1.6875rem !default;
-$h4-font-size:                1.53rem !default;
+$h4-font-size:                1.5rem !default;
 $h5-font-size:                1.375rem !default;
-$h6-font-size:                1.26rem !default;
+$h6-font-size:                1.25rem !default;
  
 $headings-margin-bottom:      0rem !default;
-$headings-font-weight:        $font-weight-book;
-$headings-color:              $primary !default;
+$headings-font-weight:        $font-weight-exbold;
+$headings-color:              $black !default;
 
 $font-size-xxxlg:             1.1875rem !default;
 $font-size-xxlg:              1.125rem !default;
@@ -166,20 +157,27 @@ $font-size-xxxsm:             0.6875rem !default;
 $small-font-size:             96% !default;
  
 $font-weight-base:            $font-weight-normal !default;
-$font-spacing-base:           0rem !default;
+$font-spacing-base:           0.08rem !default;
 $line-height-base:            1.6 !default;
 $paragraph-margin-bottom:     0rem !default;
 
 $body-color:                  $primary;
  
 /////////////////////////////////////////////////////////////////////////// LINKS 
-$link-color:                  $secondary !default;
-$link-hover-color:            $primary !default;
+$link-color:                  $blue !default;
+$link-hover-color:            $blue !default;
 $link-hover-decoration:       none !default;
 
 $link-colors: (
     primary:    $primary,
-    secondary:  $secondary 
+    secondary:  $secondary,
+    white:      $white,
+    black:      $black,
+    gray:       $gray,
+    red:        $red,
+    green:      $green,
+    blue:       $blue,
+    yellow:     $yellow
 );
  
 /////////////////////////////////////////////////////////////////////////// SPACERS 
@@ -227,22 +225,16 @@ $spacers: map-merge((
   38: ($spacer * 18.5),
   39: ($spacer * 19),
   40: ($spacer * 19.5),
-  41: ($spacer * 20),
-  42: ($spacer * 20.5),
-  43: ($spacer * 21),
-  44: ($spacer * 21.5),
-  45: ($spacer * 22),
-  46: ($spacer * 22.5),
-  47: ($spacer * 23),
-  48: ($spacer * 23.5),
-  49: ($spacer * 24),
   50: ($spacer * 25.5)
 ), $spacers);
+
+/////////////////////////////////////////////////////////////////////////// BORDERS 
+$border-color:          $primary !default;
  
 /////////////////////////////////////////////////////////////////////////// ICONS 
-$icon-size-xxl:         70px !default;
-$icon-size-xl:          35px !default;
-$icon-size-l:           33px !default;
+$icon-size-xxl:         120px !default;
+$icon-size-xl:          70px !default;
+$icon-size-l:           30px !default;
 $icon-size-m:           20px !default;
 $icon-size-s:           15px !default;
 $icon-size-xs:          13px !default;
@@ -264,5 +256,5 @@ $vertical-heights-step:     5 !default;
 $text-wings-height:       2px !default;
 
 /////////////////////////////////////////////////////////////////////////// ASPECT-RATIO
-$aspect-ratio-max:       200 !default;
+$aspect-ratio-max:       75 !default;
 $aspect-ratio-step:      5 !default;
