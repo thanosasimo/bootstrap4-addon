@@ -70,6 +70,15 @@
     }
 }
 
+// Responsive justify
+@each $breakpoint in map-keys($grid-breakpoints) {
+    @include media-breakpoint-up($breakpoint) {
+      $infix: breakpoint-infix($breakpoint, $grid-breakpoints);
+  
+      .text#{$infix}-justify   { text-align: justify !important; }
+    }
+  }
+
 .text-underline {
     display: inline-block;
     position: relative;
