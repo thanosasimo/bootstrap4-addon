@@ -1,17 +1,3 @@
-:focus {
-    outline: none;
-}
-
-button {
-    background: transparent;
-    border: none;
-    cursor: pointer;
-
-    &:focus {
-        outline: none;
-    }
-}
-
 .overflow-hidden {
     overflow: hidden !important;
 }
@@ -20,8 +6,6 @@ button {
     height: 100%;
 }
 
-.no-style {
-    padding: 0;
-    margin: 0;
-    list-style: none;
+.w-100 {
+    width: 100%;
 }

@@ -231,6 +231,11 @@ $spacers: map-merge((
   50: ($spacer * 25.5)
 ), $spacers);
 
+/////////////////////////////////////////////////////////////////////////// SHADOWS 
+$box-shadow-sm: 0px 5px 10px rgba($black, 0.4) !default;
+$box-shadow: 0px 5px 10px rgba($black, 0.4) !default;
+$box-shadow-lg: 0px 5px 10px rgba($black, 0.4) !default;
+
 /////////////////////////////////////////////////////////////////////////// BORDERS 
 $border-color:          $white !default;
 $border-width:          20px !default;
