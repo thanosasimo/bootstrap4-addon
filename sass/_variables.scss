@@ -249,20 +249,18 @@ $icon-size-sm:          23px !default;
 $icon-size-xs:          21px !default;
  
 /////////////////////////////////////////////////////////////////////////// IMAGES 
-$image-widths: 100, 200, 300;
+$image-widths:              100, 200, 300;
  
 /////////////////////////////////////////////////////////////////////////// NEGATIVE MARGINS 
-$negative-margins-min:      20 !default;
-$negative-margins-max:      340 !default;
-$negative-margins-step:     5 !default;
+$negative-margins:      50, 100;
  
 /////////////////////////////////////////////////////////////////////////// VERTICAL HEIGHTS 
 $vertical-heights-max:      230 !default;
 $vertical-heights-step:     5 !default;
 
 /////////////////////////////////////////////////////////////////////////// TYPOGRAPHY 
-$text-wings-height:       2px !default;
+$text-wings-height:         2px !default;
 
 /////////////////////////////////////////////////////////////////////////// ASPECT-RATIO 
-$aspect-ratio-max:       75 !default;
-$aspect-ratio-step:      5 !default;
+$aspect-ratio-max:          75 !default;
+$aspect-ratio-step:         5 !default;

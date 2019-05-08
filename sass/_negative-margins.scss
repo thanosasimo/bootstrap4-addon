@@ -1,15 +1,28 @@
+// @each $breakpoint in map-keys($grid-breakpoints) {
+//     @include media-breakpoint-up($breakpoint) {
+//         $infix: breakpoint-infix($breakpoint, $grid-breakpoints);
+
+//         $i: $negative-margins-step;
+
+//         @for $i from $negative-margins-min through $negative-margins-max {
+//         // @while $i <= $negative-margins-max {
+//             .mt#{$infix}--#{$i} {
+//                 margin-top: -$i + px + !important;
+//             }
+//             $i: $i+$negative-margins-step;
+//         }
+
+//     }
+// }
+
 @each $breakpoint in map-keys($grid-breakpoints) {
     @include media-breakpoint-up($breakpoint) {
         $infix: breakpoint-infix($breakpoint, $grid-breakpoints);
 
-        $i: $negative-margins-step;
-
-        @for $i from $negative-margins-min through $negative-margins-max {
-        // @while $i <= $negative-margins-max {
-            .mt#{$infix}--#{$i} {
-                margin-top: -$i + px + !important;
+        @each $margin in $negative-margins {
+            .mt#{$infix}--#{$margin} {
+                width: $margin + px;
             }
-            $i: $i+$negative-margins-step;
         }
 
     }
