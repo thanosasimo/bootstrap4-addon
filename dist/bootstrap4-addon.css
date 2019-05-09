@@ -323,6 +323,36 @@ button {
     .link-yellow:hover i:before {
       color: #ffe187; }
 
+.min-h-50 {
+  min-height: 50px; }
+
+.min-h-100 {
+  min-height: 100px; }
+
+@media (min-width: 576px) {
+  .min-h-sm-50 {
+    min-height: 50px; }
+  .min-h-sm-100 {
+    min-height: 100px; } }
+
+@media (min-width: 768px) {
+  .min-h-md-50 {
+    min-height: 50px; }
+  .min-h-md-100 {
+    min-height: 100px; } }
+
+@media (min-width: 992px) {
+  .min-h-lg-50 {
+    min-height: 50px; }
+  .min-h-lg-100 {
+    min-height: 100px; } }
+
+@media (min-width: 1200px) {
+  .min-h-xl-50 {
+    min-height: 50px; }
+  .min-h-xl-100 {
+    min-height: 100px; } }
+
 .mt--50 {
   margin-top: -50px; }
 
