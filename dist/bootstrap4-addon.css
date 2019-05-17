@@ -255,73 +255,17 @@ button {
   color: #007bff;
   transition: color 250ms ease-out; }
   .link-primary:hover {
-    color: #80bdff; }
+    color: #6c757d; }
     .link-primary:hover i:before {
-      color: #80bdff; }
-
-.link-secondary {
-  color: #6c757d;
-  transition: color 250ms ease-out; }
-  .link-secondary:hover {
-    color: #afb5ba; }
-    .link-secondary:hover i:before {
-      color: #afb5ba; }
-
-.link-white {
-  color: #fff;
-  transition: color 250ms ease-out; }
-  .link-white:hover {
-    color: white; }
-    .link-white:hover i:before {
-      color: white; }
+      color: #6c757d; }
 
 .link-black {
   color: #000;
   transition: color 250ms ease-out; }
   .link-black:hover {
-    color: #404040; }
+    color: #fff; }
     .link-black:hover i:before {
-      color: #404040; }
-
-.link-gray {
-  color: #adb5bd;
-  transition: color 250ms ease-out; }
-  .link-gray:hover {
-    color: #f4f5f6; }
-    .link-gray:hover i:before {
-      color: #f4f5f6; }
-
-.link-red {
-  color: #dc3545;
-  transition: color 250ms ease-out; }
-  .link-red:hover {
-    color: #efa2a9; }
-    .link-red:hover i:before {
-      color: #efa2a9; }
-
-.link-green {
-  color: #28a745;
-  transition: color 250ms ease-out; }
-  .link-green:hover {
-    color: #71dd8a; }
-    .link-green:hover i:before {
-      color: #71dd8a; }
-
-.link-blue {
-  color: #007bff;
-  transition: color 250ms ease-out; }
-  .link-blue:hover {
-    color: #80bdff; }
-    .link-blue:hover i:before {
-      color: #80bdff; }
-
-.link-yellow {
-  color: #ffc107;
-  transition: color 250ms ease-out; }
-  .link-yellow:hover {
-    color: #ffe187; }
-    .link-yellow:hover i:before {
-      color: #ffe187; }
+      color: #fff; }
 
 .min-h-50 {
   min-height: 50px; }

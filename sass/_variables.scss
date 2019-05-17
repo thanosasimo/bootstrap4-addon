@@ -172,15 +172,14 @@ $link-hover-color:            $secondary !default;
 $link-hover-decoration:       none !default;
 
 $link-colors: (
-    primary:    $primary,
-    secondary:  $secondary,
-    white:      $white,
-    black:      $black,
-    gray:       $gray,
-    red:        $red,
-    green:      $green,
-    blue:       $blue,
-    yellow:     $yellow
+    primary: (
+      'color': $primary,
+      'hover': $secondary
+    ),
+    black: (
+      'color': $black,
+      'hover': $white
+    )
 );
  
 /////////////////////////////////////////////////////////////////////////// SPACERS 
