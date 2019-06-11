@@ -35,13 +35,22 @@ button {
     }
 }
 
-@each $name, $color in $link-colors {
+@each $name,
+$color in $link-colors {
     .link-#{$name} {
         color: map-get($color, 'color') !important;
         transition: color 250ms ease-out;
 
+        & * {
+            color: map-get($color, 'color') !important;
+        }
+
         &:hover {
             color: map-get($color, 'hover') !important;
+
+            & * {
+                color: map-get($color, 'hover') !important;
+            }
 
             i:before {
                 color: map-get($color, 'hover');
