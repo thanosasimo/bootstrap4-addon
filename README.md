@@ -374,8 +374,6 @@ $negative-margins-step:     5 !default;
 $vertical-heights-max:      230 !default;
 $vertical-heights-step:     5 !default;
 
-/////////////////////////////////////////////////////////////////////////// TYPOGRAPHY
-$text-wings-height:       2px !default;
 ```
 
 ## Update package

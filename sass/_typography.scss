@@ -8,34 +8,6 @@ ul.no-style {
     list-style: none;
 }
 
-.text-wings {
-    position: relative;
-    left: 50%;
-    transform: translateX(-50%);
-    display: inline-block;
-    padding: 0px 20px;
-
-    &:before,
-    &:after {
-        content: "";
-        display: block;
-        height: $text-wings-height;
-        width: $text-wings-width;
-        background: currentColor;
-        position: absolute;
-        top: 50%;
-        transform: translateY(-50%);
-    }
-
-    &:before {
-        right: 100%;
-    }
-
-    &:after {
-        left: 100%;
-    }
-}
-
 @media only screen and (max-width: 1199px) {
     .text-wings {
 
