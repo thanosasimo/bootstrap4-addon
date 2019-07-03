@@ -4,7 +4,7 @@
 
         @each $ratio in $aspect-ratios {
             .ar#{$infix}-#{$ratio} {
-                padding-top: '{$ratio}%' + !important;
+                padding-top: #{$ratio}% !important;
             }
         }
 
