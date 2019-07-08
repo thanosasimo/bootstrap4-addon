@@ -3,11 +3,8 @@
     $infix: breakpoint-infix($breakpoint, $grid-breakpoints);
 
     @for $i from 1 through $grid-columns {
-
-      $amount: 100 / $grid-columns * $i;
-
       .offset-n#{$i} {
-        margin-left: 0% - $amount !important;
+        margin-left: 0% - 100 / $grid-columns * $i !important;
       }
     }
 
