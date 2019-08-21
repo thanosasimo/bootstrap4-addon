@@ -41,7 +41,7 @@ $color in $link-colors {
         color: map-get($color, 'color') !important;
         transition: color 250ms ease-out;
 
-        & * {
+        *:not(i) {
             color: map-get($color, 'color') !important;
             transition: color 250ms ease-out;
         }
@@ -49,12 +49,8 @@ $color in $link-colors {
         &:hover {
             color: map-get($color, 'hover') !important;
 
-            & * {
+            *:not(i) {
                 color: map-get($color, 'hover') !important;
-            }
-
-            i:before {
-                color: map-get($color, 'hover');
             }
         }
     }
