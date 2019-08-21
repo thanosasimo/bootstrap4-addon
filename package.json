@@ -1,6 +1,6 @@
 {
   "name": "bootstrap4-addon",
-  "version": "4.1.0",
+  "version": "4.1.1",
   "description": "> Extra css classes and helpers for bootstrap 4 grid system.",
   "main": "index.js",
   "scripts": {
