@@ -43,6 +43,7 @@ $color in $link-colors {
 
         & * {
             color: map-get($color, 'color') !important;
+            transition: color 250ms ease-out;
         }
 
         &:hover {

@@ -101,7 +101,8 @@ button {
   color: #007bff !important;
   transition: color 250ms ease-out; }
   .link-primary * {
-    color: #007bff !important; }
+    color: #007bff !important;
+    transition: color 250ms ease-out; }
   .link-primary:hover {
     color: #6c757d !important; }
     .link-primary:hover * {
@@ -113,7 +114,8 @@ button {
   color: #000 !important;
   transition: color 250ms ease-out; }
   .link-black * {
-    color: #000 !important; }
+    color: #000 !important;
+    transition: color 250ms ease-out; }
   .link-black:hover {
     color: #fff !important; }
     .link-black:hover * {
