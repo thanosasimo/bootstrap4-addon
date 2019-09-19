@@ -98,15 +98,15 @@ button {
     text-decoration: none; }
 
 .link-primary {
-  color: #007bff !important;
+  color: #fff !important;
   transition: color 250ms ease-out; }
   .link-primary *:not(i) {
-    color: #007bff !important;
+    color: #fff !important;
     transition: color 250ms ease-out; }
   .link-primary:hover {
-    color: #6c757d !important; }
+    color: #000 !important; }
     .link-primary:hover *:not(i) {
-      color: #6c757d !important; }
+      color: #000 !important; }
 
 .link-black {
   color: #000 !important;
@@ -487,19 +487,28 @@ ul.no-style {
   font-weight: 900 !important; }
 
 .display-4 {
-  font-size: 3.5rem !important;
-  font-weight: 300;
-  line-height: 1.2; }
+  font-size: 2.5rem;
+  font-weight: 200;
+  line-height: 1; }
+  @media (max-width: 1200px), (max-height: 1200px) {
+    .display-4 {
+      font-size: calc(1.375rem + 1.5vmin) ; } }
 
 .display-5 {
-  font-size: 2.1875rem !important;
-  font-weight: 300;
-  line-height: 1.2; }
+  font-size: 2.1875rem;
+  font-weight: 200;
+  line-height: 1; }
+  @media (max-width: 1200px), (max-height: 1200px) {
+    .display-5 {
+      font-size: calc(1.34375rem + 1.125vmin) ; } }
 
 .display-6 {
-  font-size: 2.0625rem !important;
-  font-weight: 300;
-  line-height: 1.2; }
+  font-size: 2.0625rem;
+  font-weight: 200;
+  line-height: 1; }
+  @media (max-width: 1200px), (max-height: 1200px) {
+    .display-6 {
+      font-size: calc(1.33125rem + 0.975vmin) ; } }
 
 .xxxlarge {
   font-size: 1.1875rem; }
@@ -511,10 +520,10 @@ ul.no-style {
   font-size: 1.0625rem; }
 
 .large {
-  font-size: 1.25rem; }
+  font-size: 1rem; }
 
 .small {
-  font-size: 0.875rem; }
+  font-size: 0.87rem; }
 
 .xsmall {
   font-size: 0.82rem; }

@@ -165,51 +165,51 @@ ul.no-style {
 }
 
 .display-4 {
-    font-size: $display4-size !important;
+    @include font-size($display4-size);
     font-weight: $display4-weight;
     line-height: $display-line-height;
 }
 
 .display-5 {
-    font-size: $display5-size !important;
+    @include font-size($display5-size);
     font-weight: $display5-weight;
     line-height: $display-line-height;
 }
 
 .display-6 {
-    font-size: $display6-size !important;
+    @include font-size($display6-size);
     font-weight: $display6-weight;
     line-height: $display-line-height;
 }
 
 .xxxlarge {
-    font-size: $font-size-xxxlg;
+    @include font-size($font-size-xxxlg);
 }
 
 .xxlarge {
-    font-size: $font-size-xxlg;
+    @include font-size($font-size-xxlg);
 }
 
 .xlarge {
-    font-size: $font-size-xlg;
+    @include font-size($font-size-xlg);
 }
 
 .large {
-    font-size: $font-size-lg;
+    @include font-size($font-size-lg);
 }
 
 .small {
-    font-size: $font-size-sm;
+    @include font-size($font-size-sm);
 }
 
 .xsmall {
-    font-size: $font-size-xsm;
+    @include font-size($font-size-xsm);
 }
 
 .xxsmall {
-    font-size: $font-size-xxsm;
+    @include font-size($font-size-xxsm);
 }
 
 .xxxsmall {
-    font-size: $font-size-xxxsm;
+    @include font-size($font-size-xxxsm);
 }

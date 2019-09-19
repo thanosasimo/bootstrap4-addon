@@ -1,10 +1,11 @@
+// Addon Variables
+@import "variables";
+
 // Bootstrap Required
 @import "node_modules/bootstrap/scss/functions";
 @import "node_modules/bootstrap/scss/variables";
 @import "node_modules/bootstrap/scss/mixins";
-
-// Addon Variables
-@import "variables";
+@import "node_modules/bootstrap/scss/vendor/rfs";
 
 // Bootstrap Addon
 @import "aspect-ratio";

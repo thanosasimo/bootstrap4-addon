@@ -107,6 +107,9 @@ $theme-colors: map-merge((
 $body-bg: #ebebeb !default;
  
 /////////////////////////////////////////////////////////////////////////// FONTS
+$enable-responsive-font-sizes: true !default;
+$rfs-two-dimensional: true !default;
+
 $font-family-sans-serif:      "brother-1816", sans-serif !default;
 $font-family-monospace:       "roboto-slab", serif !default;
 
