@@ -234,37 +234,22 @@ $spacers: map-merge((
 ), $spacers);
 
 /////////////////////////////////////////////////////////////////////////// SHADOWS 
-$box-shadow-sm: 0px 5px 10px rgba($black, 0.4) !default;
-$box-shadow: 0px 5px 10px rgba($black, 0.4) !default;
-$box-shadow-lg: 0px 5px 10px rgba($black, 0.4) !default;
+$box-shadow-sm: 0px 5px 10px rgba($black, 0.3) !default;
+$box-shadow: 0px 5px 20px rgba($black, 0.2) !default;
+$box-shadow-lg: 0px 5px 30px rgba($black, 0.4) !default;
 
 /////////////////////////////////////////////////////////////////////////// BORDERS 
-$border-color:          $white !default;
-$border-width:          20px !default;
+$border-color:              $black !default;
+$border-width:              1px !default;
  
-/////////////////////////////////////////////////////////////////////////// ICONS 
-$icon-size-xxl:         120px !default;
-$icon-size-xl:          53px !default;
-$icon-size-l:           35px !default;
-$icon-size-m:           30px !default;
-$icon-size-sm:          23px !default;
-$icon-size-xs:          21px !default;
+/////////////////////////////////////////////////////////////////////////// ASPECT-RATIOS 
+$aspect-ratios:          100;
  
 /////////////////////////////////////////////////////////////////////////// IMAGES 
-$image-widths:              100, 200, 300;
- 
-/////////////////////////////////////////////////////////////////////////// NEGATIVE MARGINS 
-$negative-margins:          50, 100;
+$image-widths:              110;
 
 /////////////////////////////////////////////////////////////////////////// MIN HEIGHTS 
-$min-heights:               50, 100;
+$min-heights:               800;
  
 /////////////////////////////////////////////////////////////////////////// VERTICAL HEIGHTS 
 $vertical-heights:          200;
-
-/////////////////////////////////////////////////////////////////////////// TYPOGRAPHY 
-$text-wings-height:         2px !default;
-$text-wings-width:          100% !default;
-
-/////////////////////////////////////////////////////////////////////////// ASPECT-RATIOS 
-$aspect-ratios:          100;

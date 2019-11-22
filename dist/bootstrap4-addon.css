@@ -17,23 +17,6 @@
   .ar-xl-100 {
     padding-top: 100% !important; } }
 
-[bg-img-src],
-[data-bg-src] {
-  display: block;
-  background-size: cover;
-  background-position: 50% 50%;
-  background-repeat: no-repeat; }
-
-.bg-position-top {
-  background-position: 50% 0%; }
-
-.bg-position-bottom {
-  background-position: 50% 100%; }
-
-.bg-position-bottom-left {
-  background-size: contain;
-  background-position: 0% 100%; }
-
 .overflow-hidden {
   overflow: hidden !important; }
 
@@ -43,32 +26,8 @@
 .w-100 {
   width: 100%; }
 
-.icon-xxl {
-  font-size: 120px !important; }
-
-.icon-xl {
-  font-size: 53px !important; }
-
-.icon-l {
-  font-size: 35px !important; }
-
-.icon-m {
-  font-size: 30px !important; }
-
-.icon-sm {
-  font-size: 23px !important; }
-
-.icon-xs {
-  font-size: 21px !important; }
-
-.img-100 {
-  width: 100px; }
-
-.img-200 {
-  width: 200px; }
-
-.img-300 {
-  width: 300px; }
+.img-110 {
+  width: 110px; }
 
 button {
   background: transparent;
@@ -119,65 +78,24 @@ button {
     .link-black:hover *:not(i) {
       color: #fff !important; }
 
-.min-h-50 {
-  min-height: 50px; }
-
-.min-h-100 {
-  min-height: 100px; }
+.min-h-800 {
+  min-height: 800px; }
 
 @media (min-width: 576px) {
-  .min-h-sm-50 {
-    min-height: 50px; }
-  .min-h-sm-100 {
-    min-height: 100px; } }
+  .min-h-sm-800 {
+    min-height: 800px; } }
 
 @media (min-width: 768px) {
-  .min-h-md-50 {
-    min-height: 50px; }
-  .min-h-md-100 {
-    min-height: 100px; } }
+  .min-h-md-800 {
+    min-height: 800px; } }
 
 @media (min-width: 992px) {
-  .min-h-lg-50 {
-    min-height: 50px; }
-  .min-h-lg-100 {
-    min-height: 100px; } }
+  .min-h-lg-800 {
+    min-height: 800px; } }
 
 @media (min-width: 1200px) {
-  .min-h-xl-50 {
-    min-height: 50px; }
-  .min-h-xl-100 {
-    min-height: 100px; } }
-
-.mt--50 {
-  margin-top: -50px; }
-
-.mt--100 {
-  margin-top: -100px; }
-
-@media (min-width: 576px) {
-  .mt-sm--50 {
-    margin-top: -50px; }
-  .mt-sm--100 {
-    margin-top: -100px; } }
-
-@media (min-width: 768px) {
-  .mt-md--50 {
-    margin-top: -50px; }
-  .mt-md--100 {
-    margin-top: -100px; } }
-
-@media (min-width: 992px) {
-  .mt-lg--50 {
-    margin-top: -50px; }
-  .mt-lg--100 {
-    margin-top: -100px; } }
-
-@media (min-width: 1200px) {
-  .mt-xl--50 {
-    margin-top: -50px; }
-  .mt-xl--100 {
-    margin-top: -100px; } }
+  .min-h-xl-800 {
+    min-height: 800px; } }
 
 .offset-n1 {
   margin-left: -6.25% !important; }
