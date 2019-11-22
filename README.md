@@ -3,12 +3,11 @@
 
 ### ASSETS LIST
 * [Aspect ratio](#aspect-ratio)
-* [Backgrounds](#backgrounds)
 * [Extras](#extras)
-* [Icons](#icons)
 * [Images](#images)
 * [Links](#links)
-* [Negative margins](#negative-margins)
+* [Minimum Heights](#min-heights)
+* [Negative Offsets](#negative-offsets)
 * [Typography](#typography)
 * [Vertical heights](#vertical-heights)
 
@@ -25,37 +24,11 @@ This will effect the height of the element depending the width, so it will maint
 ###### DEFAULT VARIABLES
 $number: 5-230 with step 5.  
 
-## Backgrounds
-This is for background images and their positions.  
-###### USE
-`[data-bg-src]` or `[bg-img-src]` background size cover.  
-``` scss
-.bg-position-$position
-$position: top
-           bottom
-           bottom-left
-```
-
 ## Extras
 Reset focus outline & .overflow-hidden & .h-100 classes.
 ###### USE
 `.overflow-hidden`  
 `.h-100` height 100%  
-
-## Icons
-Fonticons sizes.
-###### USE
-`.icon-xs`  
-###### DEFAULT VARIABLES
-```scss
-$icon-size-xxl:      40px !default;
-$icon-size-xl:       30px !default;
-$icon-size-l:        25px !default;
-$icon-size-m:        20px !default;
-$icon-size-s:        15px !default;
-$icon-size-xs:       13px !default;
-```
-You can edit this sizes by include a variable file before you call the specific scss file.
 
 ## Images
 Adds width to images.  
@@ -80,14 +53,6 @@ $link-colors: (
     blue:    blue,
     yellow:  yellow
 )
-
-## Negative margins
-Adds .mt#{$infix}--#{$i} classes for negative margins.  
-Works like bootstrap's margins and paddings classes.  
-###### USE
-`.mt-$breakpoint-$number`
-###### DEFAULT VARIABLES
-$number: 5-340 with step 5.  
 
 ## Typography
 ###### USE
@@ -376,7 +341,7 @@ $vertical-heights-step:     5 !default;
 
 ```
 
-## Update package
+## Contribute
 npm version [<newversion> | major | minor | patch | premajor | preminor | prepatch | prerelease [--preid=<prerelease-id>] | from-git]  
 npm version [major | minor | patch] -m "Upgrade to %s for reasons"  
 npm publish  
