@@ -29,6 +29,22 @@
 .img-110 {
   width: 110px; }
 
+@media (min-width: 576px) {
+  .img-sm-110 {
+    width: 110px; } }
+
+@media (min-width: 768px) {
+  .img-md-110 {
+    width: 110px; } }
+
+@media (min-width: 992px) {
+  .img-lg-110 {
+    width: 110px; } }
+
+@media (min-width: 1200px) {
+  .img-xl-110 {
+    width: 110px; } }
+
 button {
   background: transparent;
   border: none;
