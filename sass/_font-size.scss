@@ -1,0 +1,15 @@
+@each $breakpoint in map-keys($grid-breakpoints) {
+    @include media-breakpoint-up($breakpoint) {
+        $infix: breakpoint-infix($breakpoint, $grid-breakpoints);
+
+        $i: 100;
+
+        @while $i < 210 {
+            .fs#{$infix}-#{$i} {
+                font-size: $i * 0.01vmin !important;
+            }
+
+            $i: $i+10;
+        }
+    }
+}
