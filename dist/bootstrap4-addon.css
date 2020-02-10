@@ -41,7 +41,7 @@
   .fs-200 {
     font-size: 2vmin !important; } }
 
-@media (max-width: 767.98px) {
+@media (min-width: 576px) and (max-width: 767.98px) {
   .fs-sm-100 {
     font-size: 1vmin !important; }
   .fs-sm-110 {
@@ -65,7 +65,7 @@
   .fs-sm-200 {
     font-size: 2vmin !important; } }
 
-@media (max-width: 991.98px) {
+@media (min-width: 768px) and (max-width: 991.98px) {
   .fs-md-100 {
     font-size: 1vmin !important; }
   .fs-md-110 {
@@ -89,7 +89,7 @@
   .fs-md-200 {
     font-size: 2vmin !important; } }
 
-@media (max-width: 1199.98px) {
+@media (min-width: 992px) and (max-width: 1199.98px) {
   .fs-lg-100 {
     font-size: 1vmin !important; }
   .fs-lg-110 {
@@ -113,38 +113,29 @@
   .fs-lg-200 {
     font-size: 2vmin !important; } }
 
-.fs-xl-100 {
-  font-size: 1vmin !important; }
-
-.fs-xl-110 {
-  font-size: 1.1vmin !important; }
-
-.fs-xl-120 {
-  font-size: 1.2vmin !important; }
-
-.fs-xl-130 {
-  font-size: 1.3vmin !important; }
-
-.fs-xl-140 {
-  font-size: 1.4vmin !important; }
-
-.fs-xl-150 {
-  font-size: 1.5vmin !important; }
-
-.fs-xl-160 {
-  font-size: 1.6vmin !important; }
-
-.fs-xl-170 {
-  font-size: 1.7vmin !important; }
-
-.fs-xl-180 {
-  font-size: 1.8vmin !important; }
-
-.fs-xl-190 {
-  font-size: 1.9vmin !important; }
-
-.fs-xl-200 {
-  font-size: 2vmin !important; }
+@media (min-width: 1200px) {
+  .fs-xl-100 {
+    font-size: 1vmin !important; }
+  .fs-xl-110 {
+    font-size: 1.1vmin !important; }
+  .fs-xl-120 {
+    font-size: 1.2vmin !important; }
+  .fs-xl-130 {
+    font-size: 1.3vmin !important; }
+  .fs-xl-140 {
+    font-size: 1.4vmin !important; }
+  .fs-xl-150 {
+    font-size: 1.5vmin !important; }
+  .fs-xl-160 {
+    font-size: 1.6vmin !important; }
+  .fs-xl-170 {
+    font-size: 1.7vmin !important; }
+  .fs-xl-180 {
+    font-size: 1.8vmin !important; }
+  .fs-xl-190 {
+    font-size: 1.9vmin !important; }
+  .fs-xl-200 {
+    font-size: 2vmin !important; } }
 
 .img-110 {
   width: 110px; }

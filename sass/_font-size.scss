@@ -1,5 +1,6 @@
 @each $breakpoint in map-keys($grid-breakpoints) {
-    @include media-breakpoint-down($breakpoint) {
+
+    @include media-breakpoint-only($breakpoint) {
         $infix: breakpoint-infix($breakpoint, $grid-breakpoints);
 
         $i: 100;
