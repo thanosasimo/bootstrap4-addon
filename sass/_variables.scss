@@ -104,7 +104,7 @@ $theme-colors: map-merge((
   "black":      $black 
 ), $theme-colors);
  
-$body-bg: #ebebeb !default;
+$body-bg: #fff !default;
  
 /////////////////////////////////////////////////////////////////////////// FONTS
 $enable-responsive-font-sizes: true !default;
@@ -127,9 +127,9 @@ $font-weight-heavy:           900 !default;
 $font-size-base:              .875rem !default;
 $font-weight-base:            $font-weight-normal !default;
 $font-spacing-base:           0rem !default;
-$line-height-base:            1 !default;
+$line-height-base:            1.5 !default;
 $paragraph-margin-bottom:     0rem !default;
-$body-color:                  $primary;
+$body-color:                  $black;
 
 $display1-size:               5rem !default;
 $display2-size:               3.75rem !default;

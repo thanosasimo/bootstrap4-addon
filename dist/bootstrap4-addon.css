@@ -17,6 +17,18 @@
   .ar-xl-100 {
     padding-top: 100% !important; } }
 
+.pl-container {
+  padding-left: calc((100vw - (540px - 10px)) / 2); }
+
+.pl-container {
+  padding-left: calc((100vw - (720px - 10px)) / 2); }
+
+.pl-container {
+  padding-left: calc((100vw - (960px - 10px)) / 2); }
+
+.pl-container {
+  padding-left: calc((100vw - (1180px - 10px)) / 2); }
+
 @media (max-width: 575.98px) {
   .fs-100 {
     font-size: 1vmin !important; }
