@@ -3,14 +3,14 @@
     @include media-breakpoint-only($breakpoint) {
         $infix: breakpoint-infix($breakpoint, $grid-breakpoints);
 
-        $i: 100;
+        $i: 6;
 
-        @while $i < 210 {
+        @while $i < 40 {
             .fs#{$infix}-#{$i} {
-                font-size: $i * 0.01vmin !important;
+                font-size: #{$i}px !important;
             }
 
-            $i: $i+10;
+            $i: $i+1;
         }
     }
 }

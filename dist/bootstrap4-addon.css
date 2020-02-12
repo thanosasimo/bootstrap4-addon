@@ -18,124 +18,354 @@
     padding-top: 100% !important; } }
 
 @media (max-width: 575.98px) {
-  .fs-100 {
-    font-size: 1vmin !important; }
-  .fs-110 {
-    font-size: 1.1vmin !important; }
-  .fs-120 {
-    font-size: 1.2vmin !important; }
-  .fs-130 {
-    font-size: 1.3vmin !important; }
-  .fs-140 {
-    font-size: 1.4vmin !important; }
-  .fs-150 {
-    font-size: 1.5vmin !important; }
-  .fs-160 {
-    font-size: 1.6vmin !important; }
-  .fs-170 {
-    font-size: 1.7vmin !important; }
-  .fs-180 {
-    font-size: 1.8vmin !important; }
-  .fs-190 {
-    font-size: 1.9vmin !important; }
-  .fs-200 {
-    font-size: 2vmin !important; } }
+  .fs-6 {
+    font-size: 6px !important; }
+  .fs-7 {
+    font-size: 7px !important; }
+  .fs-8 {
+    font-size: 8px !important; }
+  .fs-9 {
+    font-size: 9px !important; }
+  .fs-10 {
+    font-size: 10px !important; }
+  .fs-11 {
+    font-size: 11px !important; }
+  .fs-12 {
+    font-size: 12px !important; }
+  .fs-13 {
+    font-size: 13px !important; }
+  .fs-14 {
+    font-size: 14px !important; }
+  .fs-15 {
+    font-size: 15px !important; }
+  .fs-16 {
+    font-size: 16px !important; }
+  .fs-17 {
+    font-size: 17px !important; }
+  .fs-18 {
+    font-size: 18px !important; }
+  .fs-19 {
+    font-size: 19px !important; }
+  .fs-20 {
+    font-size: 20px !important; }
+  .fs-21 {
+    font-size: 21px !important; }
+  .fs-22 {
+    font-size: 22px !important; }
+  .fs-23 {
+    font-size: 23px !important; }
+  .fs-24 {
+    font-size: 24px !important; }
+  .fs-25 {
+    font-size: 25px !important; }
+  .fs-26 {
+    font-size: 26px !important; }
+  .fs-27 {
+    font-size: 27px !important; }
+  .fs-28 {
+    font-size: 28px !important; }
+  .fs-29 {
+    font-size: 29px !important; }
+  .fs-30 {
+    font-size: 30px !important; }
+  .fs-31 {
+    font-size: 31px !important; }
+  .fs-32 {
+    font-size: 32px !important; }
+  .fs-33 {
+    font-size: 33px !important; }
+  .fs-34 {
+    font-size: 34px !important; }
+  .fs-35 {
+    font-size: 35px !important; }
+  .fs-36 {
+    font-size: 36px !important; }
+  .fs-37 {
+    font-size: 37px !important; }
+  .fs-38 {
+    font-size: 38px !important; }
+  .fs-39 {
+    font-size: 39px !important; } }
 
 @media (min-width: 576px) and (max-width: 767.98px) {
-  .fs-sm-100 {
-    font-size: 1vmin !important; }
-  .fs-sm-110 {
-    font-size: 1.1vmin !important; }
-  .fs-sm-120 {
-    font-size: 1.2vmin !important; }
-  .fs-sm-130 {
-    font-size: 1.3vmin !important; }
-  .fs-sm-140 {
-    font-size: 1.4vmin !important; }
-  .fs-sm-150 {
-    font-size: 1.5vmin !important; }
-  .fs-sm-160 {
-    font-size: 1.6vmin !important; }
-  .fs-sm-170 {
-    font-size: 1.7vmin !important; }
-  .fs-sm-180 {
-    font-size: 1.8vmin !important; }
-  .fs-sm-190 {
-    font-size: 1.9vmin !important; }
-  .fs-sm-200 {
-    font-size: 2vmin !important; } }
+  .fs-sm-6 {
+    font-size: 6px !important; }
+  .fs-sm-7 {
+    font-size: 7px !important; }
+  .fs-sm-8 {
+    font-size: 8px !important; }
+  .fs-sm-9 {
+    font-size: 9px !important; }
+  .fs-sm-10 {
+    font-size: 10px !important; }
+  .fs-sm-11 {
+    font-size: 11px !important; }
+  .fs-sm-12 {
+    font-size: 12px !important; }
+  .fs-sm-13 {
+    font-size: 13px !important; }
+  .fs-sm-14 {
+    font-size: 14px !important; }
+  .fs-sm-15 {
+    font-size: 15px !important; }
+  .fs-sm-16 {
+    font-size: 16px !important; }
+  .fs-sm-17 {
+    font-size: 17px !important; }
+  .fs-sm-18 {
+    font-size: 18px !important; }
+  .fs-sm-19 {
+    font-size: 19px !important; }
+  .fs-sm-20 {
+    font-size: 20px !important; }
+  .fs-sm-21 {
+    font-size: 21px !important; }
+  .fs-sm-22 {
+    font-size: 22px !important; }
+  .fs-sm-23 {
+    font-size: 23px !important; }
+  .fs-sm-24 {
+    font-size: 24px !important; }
+  .fs-sm-25 {
+    font-size: 25px !important; }
+  .fs-sm-26 {
+    font-size: 26px !important; }
+  .fs-sm-27 {
+    font-size: 27px !important; }
+  .fs-sm-28 {
+    font-size: 28px !important; }
+  .fs-sm-29 {
+    font-size: 29px !important; }
+  .fs-sm-30 {
+    font-size: 30px !important; }
+  .fs-sm-31 {
+    font-size: 31px !important; }
+  .fs-sm-32 {
+    font-size: 32px !important; }
+  .fs-sm-33 {
+    font-size: 33px !important; }
+  .fs-sm-34 {
+    font-size: 34px !important; }
+  .fs-sm-35 {
+    font-size: 35px !important; }
+  .fs-sm-36 {
+    font-size: 36px !important; }
+  .fs-sm-37 {
+    font-size: 37px !important; }
+  .fs-sm-38 {
+    font-size: 38px !important; }
+  .fs-sm-39 {
+    font-size: 39px !important; } }
 
 @media (min-width: 768px) and (max-width: 991.98px) {
-  .fs-md-100 {
-    font-size: 1vmin !important; }
-  .fs-md-110 {
-    font-size: 1.1vmin !important; }
-  .fs-md-120 {
-    font-size: 1.2vmin !important; }
-  .fs-md-130 {
-    font-size: 1.3vmin !important; }
-  .fs-md-140 {
-    font-size: 1.4vmin !important; }
-  .fs-md-150 {
-    font-size: 1.5vmin !important; }
-  .fs-md-160 {
-    font-size: 1.6vmin !important; }
-  .fs-md-170 {
-    font-size: 1.7vmin !important; }
-  .fs-md-180 {
-    font-size: 1.8vmin !important; }
-  .fs-md-190 {
-    font-size: 1.9vmin !important; }
-  .fs-md-200 {
-    font-size: 2vmin !important; } }
+  .fs-md-6 {
+    font-size: 6px !important; }
+  .fs-md-7 {
+    font-size: 7px !important; }
+  .fs-md-8 {
+    font-size: 8px !important; }
+  .fs-md-9 {
+    font-size: 9px !important; }
+  .fs-md-10 {
+    font-size: 10px !important; }
+  .fs-md-11 {
+    font-size: 11px !important; }
+  .fs-md-12 {
+    font-size: 12px !important; }
+  .fs-md-13 {
+    font-size: 13px !important; }
+  .fs-md-14 {
+    font-size: 14px !important; }
+  .fs-md-15 {
+    font-size: 15px !important; }
+  .fs-md-16 {
+    font-size: 16px !important; }
+  .fs-md-17 {
+    font-size: 17px !important; }
+  .fs-md-18 {
+    font-size: 18px !important; }
+  .fs-md-19 {
+    font-size: 19px !important; }
+  .fs-md-20 {
+    font-size: 20px !important; }
+  .fs-md-21 {
+    font-size: 21px !important; }
+  .fs-md-22 {
+    font-size: 22px !important; }
+  .fs-md-23 {
+    font-size: 23px !important; }
+  .fs-md-24 {
+    font-size: 24px !important; }
+  .fs-md-25 {
+    font-size: 25px !important; }
+  .fs-md-26 {
+    font-size: 26px !important; }
+  .fs-md-27 {
+    font-size: 27px !important; }
+  .fs-md-28 {
+    font-size: 28px !important; }
+  .fs-md-29 {
+    font-size: 29px !important; }
+  .fs-md-30 {
+    font-size: 30px !important; }
+  .fs-md-31 {
+    font-size: 31px !important; }
+  .fs-md-32 {
+    font-size: 32px !important; }
+  .fs-md-33 {
+    font-size: 33px !important; }
+  .fs-md-34 {
+    font-size: 34px !important; }
+  .fs-md-35 {
+    font-size: 35px !important; }
+  .fs-md-36 {
+    font-size: 36px !important; }
+  .fs-md-37 {
+    font-size: 37px !important; }
+  .fs-md-38 {
+    font-size: 38px !important; }
+  .fs-md-39 {
+    font-size: 39px !important; } }
 
 @media (min-width: 992px) and (max-width: 1199.98px) {
-  .fs-lg-100 {
-    font-size: 1vmin !important; }
-  .fs-lg-110 {
-    font-size: 1.1vmin !important; }
-  .fs-lg-120 {
-    font-size: 1.2vmin !important; }
-  .fs-lg-130 {
-    font-size: 1.3vmin !important; }
-  .fs-lg-140 {
-    font-size: 1.4vmin !important; }
-  .fs-lg-150 {
-    font-size: 1.5vmin !important; }
-  .fs-lg-160 {
-    font-size: 1.6vmin !important; }
-  .fs-lg-170 {
-    font-size: 1.7vmin !important; }
-  .fs-lg-180 {
-    font-size: 1.8vmin !important; }
-  .fs-lg-190 {
-    font-size: 1.9vmin !important; }
-  .fs-lg-200 {
-    font-size: 2vmin !important; } }
+  .fs-lg-6 {
+    font-size: 6px !important; }
+  .fs-lg-7 {
+    font-size: 7px !important; }
+  .fs-lg-8 {
+    font-size: 8px !important; }
+  .fs-lg-9 {
+    font-size: 9px !important; }
+  .fs-lg-10 {
+    font-size: 10px !important; }
+  .fs-lg-11 {
+    font-size: 11px !important; }
+  .fs-lg-12 {
+    font-size: 12px !important; }
+  .fs-lg-13 {
+    font-size: 13px !important; }
+  .fs-lg-14 {
+    font-size: 14px !important; }
+  .fs-lg-15 {
+    font-size: 15px !important; }
+  .fs-lg-16 {
+    font-size: 16px !important; }
+  .fs-lg-17 {
+    font-size: 17px !important; }
+  .fs-lg-18 {
+    font-size: 18px !important; }
+  .fs-lg-19 {
+    font-size: 19px !important; }
+  .fs-lg-20 {
+    font-size: 20px !important; }
+  .fs-lg-21 {
+    font-size: 21px !important; }
+  .fs-lg-22 {
+    font-size: 22px !important; }
+  .fs-lg-23 {
+    font-size: 23px !important; }
+  .fs-lg-24 {
+    font-size: 24px !important; }
+  .fs-lg-25 {
+    font-size: 25px !important; }
+  .fs-lg-26 {
+    font-size: 26px !important; }
+  .fs-lg-27 {
+    font-size: 27px !important; }
+  .fs-lg-28 {
+    font-size: 28px !important; }
+  .fs-lg-29 {
+    font-size: 29px !important; }
+  .fs-lg-30 {
+    font-size: 30px !important; }
+  .fs-lg-31 {
+    font-size: 31px !important; }
+  .fs-lg-32 {
+    font-size: 32px !important; }
+  .fs-lg-33 {
+    font-size: 33px !important; }
+  .fs-lg-34 {
+    font-size: 34px !important; }
+  .fs-lg-35 {
+    font-size: 35px !important; }
+  .fs-lg-36 {
+    font-size: 36px !important; }
+  .fs-lg-37 {
+    font-size: 37px !important; }
+  .fs-lg-38 {
+    font-size: 38px !important; }
+  .fs-lg-39 {
+    font-size: 39px !important; } }
 
 @media (min-width: 1200px) {
-  .fs-xl-100 {
-    font-size: 1vmin !important; }
-  .fs-xl-110 {
-    font-size: 1.1vmin !important; }
-  .fs-xl-120 {
-    font-size: 1.2vmin !important; }
-  .fs-xl-130 {
-    font-size: 1.3vmin !important; }
-  .fs-xl-140 {
-    font-size: 1.4vmin !important; }
-  .fs-xl-150 {
-    font-size: 1.5vmin !important; }
-  .fs-xl-160 {
-    font-size: 1.6vmin !important; }
-  .fs-xl-170 {
-    font-size: 1.7vmin !important; }
-  .fs-xl-180 {
-    font-size: 1.8vmin !important; }
-  .fs-xl-190 {
-    font-size: 1.9vmin !important; }
-  .fs-xl-200 {
-    font-size: 2vmin !important; } }
+  .fs-xl-6 {
+    font-size: 6px !important; }
+  .fs-xl-7 {
+    font-size: 7px !important; }
+  .fs-xl-8 {
+    font-size: 8px !important; }
+  .fs-xl-9 {
+    font-size: 9px !important; }
+  .fs-xl-10 {
+    font-size: 10px !important; }
+  .fs-xl-11 {
+    font-size: 11px !important; }
+  .fs-xl-12 {
+    font-size: 12px !important; }
+  .fs-xl-13 {
+    font-size: 13px !important; }
+  .fs-xl-14 {
+    font-size: 14px !important; }
+  .fs-xl-15 {
+    font-size: 15px !important; }
+  .fs-xl-16 {
+    font-size: 16px !important; }
+  .fs-xl-17 {
+    font-size: 17px !important; }
+  .fs-xl-18 {
+    font-size: 18px !important; }
+  .fs-xl-19 {
+    font-size: 19px !important; }
+  .fs-xl-20 {
+    font-size: 20px !important; }
+  .fs-xl-21 {
+    font-size: 21px !important; }
+  .fs-xl-22 {
+    font-size: 22px !important; }
+  .fs-xl-23 {
+    font-size: 23px !important; }
+  .fs-xl-24 {
+    font-size: 24px !important; }
+  .fs-xl-25 {
+    font-size: 25px !important; }
+  .fs-xl-26 {
+    font-size: 26px !important; }
+  .fs-xl-27 {
+    font-size: 27px !important; }
+  .fs-xl-28 {
+    font-size: 28px !important; }
+  .fs-xl-29 {
+    font-size: 29px !important; }
+  .fs-xl-30 {
+    font-size: 30px !important; }
+  .fs-xl-31 {
+    font-size: 31px !important; }
+  .fs-xl-32 {
+    font-size: 32px !important; }
+  .fs-xl-33 {
+    font-size: 33px !important; }
+  .fs-xl-34 {
+    font-size: 34px !important; }
+  .fs-xl-35 {
+    font-size: 35px !important; }
+  .fs-xl-36 {
+    font-size: 36px !important; }
+  .fs-xl-37 {
+    font-size: 37px !important; }
+  .fs-xl-38 {
+    font-size: 38px !important; }
+  .fs-xl-39 {
+    font-size: 39px !important; } }
 
 .img-110 {
   width: 110px; }
