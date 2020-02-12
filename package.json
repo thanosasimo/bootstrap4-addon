@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "build": "node-sass --output-style compressed sass/bootstrap4-addon.scss dist/bootstrap4-addon.min.css",
-    "watch": "node-sass --watch sass/bootstrap4-addon.scss dist/bootstrap4-addon.css"
+    "watch": "node-sass --watch sass/bootstrap4-addon.scss dist/bootstrap4-addon.css",
+    "bootstrap": "node-sass --output-style compressed sass/bootstrap.scss dist/bootstrap.css"
   },
   "repository": {
     "type": "git",
