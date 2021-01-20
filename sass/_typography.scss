@@ -8,46 +8,6 @@ ul.no-style {
     list-style: none;
 }
 
-@media only screen and (max-width: 1199px) {
-    .text-wings {
-
-        &:before,
-        &:after {
-            width: 130%;
-        }
-    }
-}
-
-@media only screen and (max-width: 991px) {
-    .text-wings {
-
-        &:before,
-        &:after {
-            width: 80%;
-        }
-    }
-}
-
-@media only screen and (max-width: 767px) {
-    .text-wings {
-
-        &:before,
-        &:after {
-            width: 40%;
-        }
-    }
-}
-
-@media only screen and (max-width: 575px) {
-    .text-wings {
-
-        &:before,
-        &:after {
-            width: 10%;
-        }
-    }
-}
-
 // Responsive justify
 @each $breakpoint in map-keys($grid-breakpoints) {
     @include media-breakpoint-up($breakpoint) {
