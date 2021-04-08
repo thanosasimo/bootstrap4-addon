@@ -181,3 +181,7 @@ ul.no-style {
 .xxxsmall {
     @include font-size($font-size-xxxsm);
 }
+
+.tiny {
+    @include font-size($font-size-tiny);
+}
