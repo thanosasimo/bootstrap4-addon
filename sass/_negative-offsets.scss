@@ -4,7 +4,7 @@
 
     @for $i from 1 through $grid-columns {
       .offset#{$infix}-n#{$i} {
-        margin-left: 0% - 100 / $grid-columns * $i !important;
+        margin-left: 0% - 100 / $grid-columns * $i;
       }
     }
 
